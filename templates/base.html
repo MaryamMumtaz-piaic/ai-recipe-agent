@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}AI Recipe Agent — Discover, Cook, Personalize{% endblock %}</title>
+<meta name="description" content="{% block meta_description %}Discover recipes from around the world, or let AI craft one around your ingredients, budget, and cravings. AI Recipe Agent is your intelligent cooking companion.{% endblock %}">
+<link rel="canonical" href="{% block canonical %}{{ request.url }}{% endblock %}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:title" content="{% block og_title %}AI Recipe Agent — Discover, Cook, Personalize{% endblock %}">
+<meta property="og:description" content="{% block og_description %}Discover recipes from around the world, or let AI craft one around your ingredients, budget, and cravings.{% endblock %}">
+<meta property="og:site_name" content="AI Recipe Agent">
+<meta property="og:image" content="{% block og_image %}{{ request.url_for('static', path='favicon.png') if False else '' }}{% endblock %}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍲</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind Play CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#FBF7F0',
+          'bg-alt': '#F3ECE1',
+          surface: '#FFFFFF',
+          ink: { DEFAULT: '#2B2420', muted: '#6B6058' },
+          border: '#E8DFD2',
+          primary: { DEFAULT: '#4A5D3A', dark: '#34432A' },
+          accent: { DEFAULT: '#C1633B', dark: '#A34E2D' },
+          gold: '#C99A3E',
+        },
+        fontFamily: {
+          serif: ['Fraunces', 'ui-serif', 'Georgia', 'serif'],
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        },
+        boxShadow: {
+          card: '0 4px 16px rgba(43, 36, 32, 0.08)',
+          lift: '0 12px 32px rgba(43, 36, 32, 0.12)',
+        },
+        borderRadius: {
+          xl2: '1.25rem',
+        },
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="/static/css/styles.css">
+{% block extra_head %}{% endblock %}
+</head>
+<body class="bg-bg text-ink font-sans antialiased" data-page="{% block page_id %}{% endblock %}">
+
+<!-- Skip link -->
+<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[200] focus:bg-ink focus:text-bg focus:px-4 focus:py-2 focus:rounded-lg">Skip to content</a>
+
+<!-- ================= NAVBAR ================= -->
+<header id="site-nav" class="sticky top-0 z-40 bg-bg/95 backdrop-blur border-b border-transparent">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Primary">
+    <div class="flex items-center justify-between h-16 md:h-20 gap-4">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2 shrink-0 group">
+        <span class="text-2xl" aria-hidden="true">🍲</span>
+        <span class="font-serif font-semibold text-lg md:text-xl tracking-tight text-ink group-hover:text-primary transition-colors">AI Recipe Agent</span>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden lg:flex items-center gap-1">
+        <a href="/" class="px-3 py-2 text-sm font-medium text-ink/80 hover:text-primary rounded-lg hover:bg-bg-alt transition-colors">Home</a>
+        <a href="/discover" class="px-3 py-2 text-sm font-medium text-ink/80 hover:text-primary rounded-lg hover:bg-bg-alt transition-colors">Discover</a>
+        <a href="/generate" class="px-3 py-2 text-sm font-medium text-ink/80 hover:text-primary rounded-lg hover:bg-bg-alt transition-colors">AI Recipe</a>
+        <a href="/discover#categories" class="px-3 py-2 text-sm font-medium text-ink/80 hover:text-primary rounded-lg hover:bg-bg-alt transition-colors">Categories</a>
+        <a href="/about" class="px-3 py-2 text-sm font-medium text-ink/80 hover:text-primary rounded-lg hover:bg-bg-alt transition-colors">About</a>
+      </div>
+
+      <!-- Search (desktop) -->
+      <div class="hidden md:block flex-1 max-w-xs relative">
+        <form action="/discover" method="get" id="nav-search-form" role="search" autocomplete="off">
+          <label for="nav-search-input" class="sr-only">Search recipes</label>
+          <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 105.4 5.4a7.5 7.5 0 0011.25 11.25z"/></svg>
+            <input id="nav-search-input" name="q" type="search" placeholder="Search recipes..." class="w-full pl-9 pr-3 py-2 text-sm rounded-full border border-border bg-surface focus:border-primary outline-none transition-colors" />
+          </div>
+        </form>
+        <div id="nav-search-results" class="hidden absolute mt-2 w-full bg-surface border border-border rounded-xl shadow-lift overflow-hidden z-50"></div>
+      </div>
+
+      <!-- CTA + mobile toggle -->
+      <div class="flex items-center gap-2 shrink-0">
+        <a href="/saved" class="hidden md:inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-bg-alt transition-colors" aria-label="Saved recipes">
+          <svg class="w-5 h-5 text-ink" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-4-7 4V5z"/></svg>
+        </a>
+        <a href="/generate" class="hidden sm:inline-flex items-center gap-1.5 bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-4 py-2.5 rounded-full shadow-sm transition-colors">
+          Create Recipe
+        </a>
+        <button id="mobile-menu-toggle" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg hover:bg-bg-alt transition-colors" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <svg id="icon-menu" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="icon-close" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="lg:hidden border-t border-border">
+      <div class="py-4 flex flex-col gap-1">
+        <form action="/discover" method="get" class="px-2 pb-3">
+          <label for="mobile-search-input" class="sr-only">Search recipes</label>
+          <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 105.4 5.4a7.5 7.5 0 0011.25 11.25z"/></svg>
+            <input id="mobile-search-input" name="q" type="search" placeholder="Search recipes..." class="w-full pl-9 pr-3 py-2.5 text-sm rounded-full border border-border bg-surface focus:border-primary outline-none" />
+          </div>
+        </form>
+        <a href="/" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">Home</a>
+        <a href="/discover" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">Discover</a>
+        <a href="/generate" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">AI Recipe</a>
+        <a href="/discover#categories" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">Categories</a>
+        <a href="/saved" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">Saved Recipes</a>
+        <a href="/about" class="px-4 py-3 text-base font-medium text-ink hover:bg-bg-alt rounded-lg mx-2">About</a>
+        <div class="px-2 pt-2">
+          <a href="/generate" class="flex items-center justify-center gap-1.5 bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-4 py-3 rounded-full transition-colors">Create Recipe</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+{% block content %}{% endblock %}
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-primary-dark text-bg/90 mt-24 no-print">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+      <div class="md:col-span-4">
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-2xl" aria-hidden="true">🍲</span>
+          <span class="font-serif font-semibold text-lg text-white">AI Recipe Agent</span>
+        </a>
+        <p class="mt-4 font-serif italic text-lg text-bg/70 leading-relaxed">Discover. Cook. Personalize.</p>
+        <p class="mt-4 text-sm text-bg/60 max-w-xs leading-relaxed">An intelligent recipe discovery and cooking platform — real dishes from around the world, and AI-crafted recipes built around you.</p>
+      </div>
+
+      <div class="md:col-span-2">
+        <h3 class="text-sm font-semibold text-white uppercase tracking-wide mb-4">Explore</h3>
+        <ul class="space-y-3 text-sm text-bg/70">
+          <li><a href="/discover" class="hover:text-white transition-colors">Discover</a></li>
+          <li><a href="/discover#categories" class="hover:text-white transition-colors">Categories</a></li>
+          <li><a href="/discover#cuisines" class="hover:text-white transition-colors">Cuisines</a></li>
+          <li><a href="/saved" class="hover:text-white transition-colors">Saved Recipes</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-3">
+        <h3 class="text-sm font-semibold text-white uppercase tracking-wide mb-4">AI Tools</h3>
+        <ul class="space-y-3 text-sm text-bg/70">
+          <li><a href="/generate" class="hover:text-white transition-colors">Recipe Builder</a></li>
+          <li><a href="/generate" class="hover:text-white transition-colors">Adapt Recipe</a></li>
+          <li><a href="/generate" class="hover:text-white transition-colors">Ingredient Substitutions</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-3">
+        <h3 class="text-sm font-semibold text-white uppercase tracking-wide mb-4">Company</h3>
+        <ul class="space-y-3 text-sm text-bg/70">
+          <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="/faq" class="hover:text-white transition-colors">FAQ</a></li>
+          <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="text-xs text-bg/50">© 2026 AI Recipe Agent. All rights reserved.</p>
+      <p class="text-xs text-bg/50">Recipes are suggestions — always verify ingredients against personal allergies or medical dietary needs.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast + modal roots -->
+<div id="toast-container" aria-live="polite" role="status"></div>
+<div id="modal-root"></div>
+
+<script src="/static/js/main.js" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

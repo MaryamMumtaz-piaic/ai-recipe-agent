@@ -1,0 +1,252 @@
+{% extends "base.html" %}
+{% block page_id %}home{% endblock %}
+{% block title %}AI Recipe Agent — Cook Something You'll Actually Love{% endblock %}
+{% block content %}
+
+<!-- ================= HERO ================= -->
+<section class="relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-20 md:pt-20 md:pb-28 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <span class="inline-flex items-center gap-2 chip !cursor-default text-primary border-primary/30 bg-primary/5">
+        <span aria-hidden="true">✨</span> AI-powered recipe personalization
+      </span>
+      <h1 class="mt-6 font-serif text-4xl sm:text-5xl md:text-6xl font-semibold leading-[1.08] tracking-tight text-ink">
+        Cook something<br>
+        <span class="italic text-primary">you'll actually love.</span>
+      </h1>
+      <p class="mt-6 text-lg text-ink-muted leading-relaxed max-w-lg">
+        Discover recipes from around the world, or let AI create one around your ingredients, budget, preferences, and cravings.
+      </p>
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        <a href="/generate" class="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3.5 rounded-full shadow-card transition-colors">
+          Create My Recipe
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </a>
+        <a href="/discover" class="inline-flex items-center gap-2 bg-surface border border-border hover:border-primary text-ink font-semibold px-6 py-3.5 rounded-full transition-colors">
+          Explore Recipes
+        </a>
+      </div>
+      <div class="mt-10 flex items-center gap-6 text-sm text-ink-muted">
+        <span><strong class="text-ink font-semibold">30+</strong> curated recipes</span>
+        <span class="w-1 h-1 rounded-full bg-border"></span>
+        <span><strong class="text-ink font-semibold">16</strong> world cuisines</span>
+        <span class="w-1 h-1 rounded-full bg-border"></span>
+        <span><strong class="text-ink font-semibold">100%</strong> personalized</span>
+      </div>
+    </div>
+
+    <div class="relative h-[380px] sm:h-[440px] lg:h-[480px]" aria-hidden="true">
+      <div class="recipe-media grad-terracotta absolute top-0 right-4 w-44 h-44 sm:w-56 sm:h-56 rounded-3xl shadow-lift rotate-3">
+        <span class="recipe-media-emoji text-6xl sm:text-7xl">🍛</span>
+      </div>
+      <div class="recipe-media grad-sage absolute bottom-8 left-0 w-36 h-36 sm:w-44 sm:h-44 rounded-3xl shadow-lift -rotate-6">
+        <span class="recipe-media-emoji text-5xl sm:text-6xl">🥗</span>
+      </div>
+      <div class="recipe-media grad-saffron absolute bottom-0 right-8 sm:right-16 w-28 h-28 sm:w-36 sm:h-36 rounded-3xl shadow-lift rotate-6">
+        <span class="recipe-media-emoji text-4xl sm:text-5xl">🍰</span>
+      </div>
+      <div class="recipe-media grad-berry absolute top-24 left-8 sm:left-16 w-24 h-24 sm:w-28 sm:h-28 rounded-2xl shadow-card -rotate-12">
+        <span class="recipe-media-emoji text-3xl sm:text-4xl">🍜</span>
+      </div>
+      <div class="recipe-media grad-olive absolute top-8 left-1/2 -translate-x-1/2 w-20 h-20 rounded-2xl shadow-card rotate-12">
+        <span class="recipe-media-emoji text-3xl">🌮</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= POPULAR CUISINES ================= -->
+<section id="cuisines" class="py-14 md:py-20 bg-bg-alt border-y border-border" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold">Popular Cuisines</h2>
+        <p class="text-ink-muted mt-1.5">Explore dishes from kitchens around the world.</p>
+      </div>
+      <a href="/discover" class="hidden sm:inline-flex text-sm font-semibold text-primary hover:text-primary-dark shrink-0">View all →</a>
+    </div>
+    <div id="section-cuisines" class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
+      {% for i in range(6) %}<div class="skeleton h-28 rounded-2xl"></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ================= AI RECIPE BUILDER PROMO ================= -->
+<section class="py-16 md:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="relative rounded-3xl overflow-hidden bg-primary-dark text-white px-6 py-14 sm:px-14 sm:py-20 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="relative z-10">
+        <span class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide bg-white/10 px-3 py-1.5 rounded-full">🤖 AI Recipe Builder</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-semibold mt-5 leading-tight">Tell us what you have.<br>We'll build the recipe.</h2>
+        <p class="mt-4 text-white/75 leading-relaxed max-w-md">Region, cuisine, servings, budget, dietary needs, ingredients on hand, cooking method, and time — our AI plans a complete, personalized recipe around exactly what you tell it.</p>
+        <a href="/generate" class="mt-8 inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3.5 rounded-full transition-colors">
+          Create Your Recipe
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </a>
+      </div>
+      <div class="relative z-10 grid grid-cols-2 gap-3 sm:gap-4" aria-hidden="true">
+        <div class="bg-white/10 rounded-2xl p-4 sm:p-5"><span class="text-2xl">🌍</span><p class="text-sm font-semibold mt-2">Region &amp; Cuisine</p></div>
+        <div class="bg-white/10 rounded-2xl p-4 sm:p-5"><span class="text-2xl">💰</span><p class="text-sm font-semibold mt-2">Budget-aware</p></div>
+        <div class="bg-white/10 rounded-2xl p-4 sm:p-5"><span class="text-2xl">🥕</span><p class="text-sm font-semibold mt-2">Your Ingredients</p></div>
+        <div class="bg-white/10 rounded-2xl p-4 sm:p-5"><span class="text-2xl">⏱️</span><p class="text-sm font-semibold mt-2">Time &amp; Difficulty</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED RECIPES ================= -->
+<section class="py-14 md:py-20" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold">Featured Recipes</h2>
+        <p class="text-ink-muted mt-1.5">Hand-picked dishes our community loves most.</p>
+      </div>
+      <a href="/discover?sort=rating" class="hidden sm:inline-flex text-sm font-semibold text-primary hover:text-primary-dark shrink-0">View all →</a>
+    </div>
+    <div id="section-featured" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {% for i in range(4) %}<div class="skeleton aspect-[4/3] rounded-2xl"></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPLORE CATEGORIES ================= -->
+<section id="categories" class="py-14 md:py-20 bg-bg-alt border-y border-border" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold">Explore Categories</h2>
+      <p class="text-ink-muted mt-1.5">From breakfast to bakery — find your next dish by meal.</p>
+    </div>
+    <div id="section-categories" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+      {% for i in range(6) %}<div class="skeleton h-32 rounded-2xl"></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRENDING RECIPES ================= -->
+<section class="py-14 md:py-20" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold">Trending Recipes</h2>
+        <p class="text-ink-muted mt-1.5">What everyone's cooking this week.</p>
+      </div>
+      <a href="/discover?sort=popular" class="hidden sm:inline-flex text-sm font-semibold text-primary hover:text-primary-dark shrink-0">View all →</a>
+    </div>
+    <div id="section-trending" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {% for i in range(8) %}<div class="skeleton aspect-[4/3] rounded-2xl"></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="py-14 md:py-20 bg-primary/5 border-y border-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-xl mx-auto mb-12">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold">How It Works</h2>
+      <p class="text-ink-muted mt-1.5">From craving to plated dish in a few guided steps.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+      <div class="text-center">
+        <div class="w-14 h-14 mx-auto rounded-2xl bg-surface border border-border flex items-center justify-center text-2xl shadow-sm">🌍</div>
+        <h3 class="font-serif font-semibold text-lg mt-4">1. Tell us your cravings</h3>
+        <p class="text-sm text-ink-muted mt-2 leading-relaxed">Pick a region, cuisine, and what you feel like cooking.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-14 h-14 mx-auto rounded-2xl bg-surface border border-border flex items-center justify-center text-2xl shadow-sm">⚙️</div>
+        <h3 class="font-serif font-semibold text-lg mt-4">2. Set your constraints</h3>
+        <p class="text-sm text-ink-muted mt-2 leading-relaxed">Servings, budget, diet, ingredients on hand, time, and difficulty.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-14 h-14 mx-auto rounded-2xl bg-surface border border-border flex items-center justify-center text-2xl shadow-sm">🤖</div>
+        <h3 class="font-serif font-semibold text-lg mt-4">3. AI plans your recipe</h3>
+        <p class="text-sm text-ink-muted mt-2 leading-relaxed">A complete, structured recipe built precisely around your answers.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-14 h-14 mx-auto rounded-2xl bg-surface border border-border flex items-center justify-center text-2xl shadow-sm">👩‍🍳</div>
+        <h3 class="font-serif font-semibold text-lg mt-4">4. Cook, save &amp; share</h3>
+        <p class="text-sm text-ink-muted mt-2 leading-relaxed">Step-by-step cooking mode, then save, download, or print it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SEASONAL RECIPES ================= -->
+<section class="py-14 md:py-20" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold">Seasonal Picks</h2>
+        <p class="text-ink-muted mt-1.5">Cozy soups and warm bowls for the season.</p>
+      </div>
+      <a href="/category/soup" class="hidden sm:inline-flex text-sm font-semibold text-primary hover:text-primary-dark shrink-0">View all →</a>
+    </div>
+    <div id="section-seasonal" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {% for i in range(4) %}<div class="skeleton aspect-[4/3] rounded-2xl"></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ================= RECIPE COLLECTIONS ================= -->
+<section class="py-14 md:py-20 bg-bg-alt border-y border-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold">Recipe Collections</h2>
+      <p class="text-ink-muted mt-1.5">Curated sets for every craving and constraint.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <a href="/discover?max_time=30&sort=quickest" class="group rounded-2xl overflow-hidden border border-border bg-surface hover:shadow-lift hover:-translate-y-1 transition-all">
+        <div class="recipe-media grad-terracotta h-32"><span class="recipe-media-emoji text-4xl">⚡</span></div>
+        <div class="p-5"><h3 class="font-serif font-semibold text-lg">Quick Weeknight Dinners</h3><p class="text-sm text-ink-muted mt-1">Ready in 30 minutes or less.</p></div>
+      </a>
+      <a href="/discover?budget_tier=low&sort=budget" class="group rounded-2xl overflow-hidden border border-border bg-surface hover:shadow-lift hover:-translate-y-1 transition-all">
+        <div class="recipe-media grad-sage h-32"><span class="recipe-media-emoji text-4xl">💸</span></div>
+        <div class="p-5"><h3 class="font-serif font-semibold text-lg">Budget-Friendly Eats</h3><p class="text-sm text-ink-muted mt-1">Delicious meals that go easy on your wallet.</p></div>
+      </a>
+      <a href="/discover?diet=Vegetarian" class="group rounded-2xl overflow-hidden border border-border bg-surface hover:shadow-lift hover:-translate-y-1 transition-all">
+        <div class="recipe-media grad-olive h-32"><span class="recipe-media-emoji text-4xl">🥬</span></div>
+        <div class="p-5"><h3 class="font-serif font-semibold text-lg">Vegetarian Favorites</h3><p class="text-sm text-ink-muted mt-1">Plant-forward dishes full of flavor.</p></div>
+      </a>
+      <a href="/discover?min_rating=4.8&sort=rating" class="group rounded-2xl overflow-hidden border border-border bg-surface hover:shadow-lift hover:-translate-y-1 transition-all">
+        <div class="recipe-media grad-berry h-32"><span class="recipe-media-emoji text-4xl">🕯️</span></div>
+        <div class="p-5"><h3 class="font-serif font-semibold text-lg">Top-Rated Favorites</h3><p class="text-sm text-ink-muted mt-1">Our highest-rated dishes, 4.8★ and up.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTINUE COOKING (recently viewed) ================= -->
+<section id="section-continue-cooking-wrap" class="py-14 md:py-20" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold">Continue Cooking</h2>
+      <p class="text-ink-muted mt-1.5">Pick up where you left off.</p>
+    </div>
+    <div id="section-continue-cooking" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+  </div>
+</section>
+
+<!-- ================= RECOMMENDED FOR YOU ================= -->
+<section id="section-recommended-wrap" class="py-14 md:py-20 bg-bg-alt border-y border-border" data-section>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold">Recommended For You</h2>
+      <p class="text-ink-muted mt-1.5">Based on what you've been exploring this session.</p>
+    </div>
+    <div id="section-recommended" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="py-16 md:py-24">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="font-serif text-3xl sm:text-4xl font-semibold">Ready to cook something you'll love?</h2>
+    <p class="mt-4 text-ink-muted text-lg">Let AI build a recipe around exactly what you have and what you're craving.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="/generate" class="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-7 py-3.5 rounded-full shadow-card transition-colors">Create My Recipe</a>
+      <a href="/discover" class="inline-flex items-center gap-2 bg-surface border border-border hover:border-primary text-ink font-semibold px-7 py-3.5 rounded-full transition-colors">Explore Recipes</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+[
+  {"slug": "breakfast", "name": "Breakfast", "icon": "🍳"},
+  {"slug": "lunch", "name": "Lunch", "icon": "🥪"},
+  {"slug": "dinner", "name": "Dinner", "icon": "🍽️"},
+  {"slug": "dessert", "name": "Dessert", "icon": "🍰"},
+  {"slug": "snack", "name": "Snack", "icon": "🥨"},
+  {"slug": "soup", "name": "Soup", "icon": "🍲"},
+  {"slug": "salad", "name": "Salad", "icon": "🥗"},
+  {"slug": "main-course", "name": "Main Course", "icon": "🍛"},
+  {"slug": "side-dish", "name": "Side Dish", "icon": "🥘"},
+  {"slug": "drinks", "name": "Drinks", "icon": "🥤"},
+  {"slug": "bakery", "name": "Bakery", "icon": "🥐"},
+  {"slug": "street-food", "name": "Street Food", "icon": "🌮"}
+]

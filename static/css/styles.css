@@ -1,0 +1,450 @@
+/* ==========================================================================
+   AI Recipe Agent — Design System
+   Premium editorial food-platform aesthetic. Light theme only.
+   Tailwind (Play CDN) handles most utility work; this file covers:
+   design tokens, gradient placeholder panels, checklist/star/print/modal/
+   toast/cooking-mode components Tailwind can't express cleanly.
+   ========================================================================== */
+
+:root {
+  --color-bg: #FBF7F0;
+  --color-bg-alt: #F3ECE1;
+  --color-surface: #FFFFFF;
+  --color-ink: #2B2420;
+  --color-ink-muted: #6B6058;
+  --color-border: #E8DFD2;
+  --color-primary: #4A5D3A;
+  --color-primary-dark: #34432A;
+  --color-accent: #C1633B;
+  --color-accent-dark: #A34E2D;
+  --color-gold: #C99A3E;
+
+  --grad-terracotta-1: #E8A87C;
+  --grad-terracotta-2: #C1633B;
+  --grad-sage-1: #A8C090;
+  --grad-sage-2: #4A5D3A;
+  --grad-saffron-1: #F2C15C;
+  --grad-saffron-2: #D98E2B;
+  --grad-berry-1: #D98CA0;
+  --grad-berry-2: #A3486B;
+  --grad-olive-1: #BFC98A;
+  --grad-olive-2: #6E7A3F;
+  --grad-clay-1: #E3B7A0;
+  --grad-clay-2: #B3714F;
+
+  --shadow-sm: 0 1px 2px rgba(43, 36, 32, 0.06);
+  --shadow-md: 0 4px 16px rgba(43, 36, 32, 0.08);
+  --shadow-lg: 0 12px 32px rgba(43, 36, 32, 0.12);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .font-serif-heading {
+  font-family: 'Fraunces', ui-serif, Georgia, serif;
+}
+
+/* Selection color */
+::selection {
+  background: var(--grad-saffron-1);
+  color: var(--color-primary-dark);
+}
+
+/* Scrollbar (webkit) — subtle, not a UI focal point */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-ink-muted); }
+
+/* ==========================================================================
+   Focus states — accessibility first, visible everywhere
+   ========================================================================== */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   Gradient placeholder "image" panels
+   Used for every recipe media block — hero, card, mini-thumbs.
+   Never a broken <img>; always this + a large centered emoji.
+   ========================================================================== */
+.recipe-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.recipe-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.25), transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(0,0,0,0.10), transparent 50%);
+  z-index: 1;
+}
+
+.recipe-media .recipe-media-emoji {
+  position: relative;
+  z-index: 2;
+  line-height: 1;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.18));
+  transform: translateY(-2%);
+}
+
+.grad-terracotta { background: linear-gradient(135deg, var(--grad-terracotta-1), var(--grad-terracotta-2)); }
+.grad-sage       { background: linear-gradient(135deg, var(--grad-sage-1), var(--grad-sage-2)); }
+.grad-saffron    { background: linear-gradient(135deg, var(--grad-saffron-1), var(--grad-saffron-2)); }
+.grad-berry      { background: linear-gradient(135deg, var(--grad-berry-1), var(--grad-berry-2)); }
+.grad-olive      { background: linear-gradient(135deg, var(--grad-olive-1), var(--grad-olive-2)); }
+.grad-clay       { background: linear-gradient(135deg, var(--grad-clay-1), var(--grad-clay-2)); }
+
+/* ==========================================================================
+   Star rating display
+   ========================================================================== */
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--color-gold);
+  letter-spacing: -1px;
+}
+.star-rating .star-empty {
+  color: var(--color-border);
+}
+
+/* ==========================================================================
+   Ingredient checklist — strike-through on check
+   ========================================================================== */
+.ingredient-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.65rem 0.25rem;
+  border-bottom: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: background-color 0.15s var(--ease-out);
+}
+.ingredient-row:hover { background-color: var(--color-bg-alt); }
+.ingredient-row:last-child { border-bottom: none; }
+
+.ingredient-row input[type="checkbox"] {
+  appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  min-width: 1.25rem;
+  margin-top: 0.15rem;
+  border: 1.5px solid var(--color-ink-muted);
+  border-radius: 6px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  background: var(--color-surface);
+  transition: border-color 0.15s, background-color 0.15s;
+}
+.ingredient-row input[type="checkbox"]::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transition: transform 0.15s var(--ease-out);
+  background-color: white;
+}
+.ingredient-row input[type="checkbox"]:checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.ingredient-row input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+.ingredient-row .ingredient-text {
+  transition: color 0.15s, opacity 0.15s;
+}
+.ingredient-row input[type="checkbox"]:checked ~ .ingredient-text {
+  text-decoration: line-through;
+  color: var(--color-ink-muted);
+  opacity: 0.7;
+}
+
+/* ==========================================================================
+   Cooking mode
+   ========================================================================== */
+.cooking-progress-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+.cooking-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-gold));
+  transition: width 0.35s var(--ease-out);
+}
+
+/* ==========================================================================
+   Toast system
+   ========================================================================== */
+#toast-container {
+  position: fixed;
+  z-index: 100;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.5rem;
+  width: min(92vw, 420px);
+  pointer-events: none;
+}
+@media (min-width: 640px) {
+  #toast-container {
+    left: auto;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    transform: none;
+  }
+}
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--color-ink);
+  color: #FBF7F0;
+  padding: 0.85rem 1.1rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  animation: toast-in 0.28s var(--ease-out);
+}
+.toast.toast-leaving {
+  animation: toast-out 0.22s var(--ease-out) forwards;
+}
+.toast .toast-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  flex-shrink: 0;
+  background: var(--color-gold);
+}
+.toast[data-type="success"] .toast-dot { background: #7FBE73; }
+.toast[data-type="error"] .toast-dot { background: #E07A5F; }
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes toast-out {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(6px) scale(0.97); }
+}
+
+/* ==========================================================================
+   Modal system
+   ========================================================================== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(43, 36, 32, 0.45);
+  opacity: 0;
+  transition: opacity 0.2s var(--ease-out);
+}
+.modal-backdrop.is-open { opacity: 1; }
+
+.modal-panel {
+  position: fixed;
+  z-index: 91;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  pointer-events: none;
+}
+@media (min-width: 640px) {
+  .modal-panel { align-items: center; padding: 1.5rem; }
+}
+.modal-panel .modal-card {
+  pointer-events: auto;
+  background: var(--color-surface);
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 20px 20px 0 0;
+  box-shadow: var(--shadow-lg);
+  transform: translateY(24px);
+  opacity: 0;
+  transition: transform 0.25s var(--ease-out), opacity 0.25s var(--ease-out);
+}
+@media (min-width: 640px) {
+  .modal-panel .modal-card { border-radius: 20px; transform: translateY(12px) scale(0.98); }
+}
+.modal-panel.is-open .modal-card {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Nav scroll shadow
+   ========================================================================== */
+#site-nav {
+  transition: box-shadow 0.2s var(--ease-out), border-color 0.2s var(--ease-out), background-color 0.2s var(--ease-out);
+}
+#site-nav.is-scrolled {
+  box-shadow: var(--shadow-sm);
+  border-bottom-color: var(--color-border);
+}
+
+/* Mobile menu panel */
+#mobile-menu {
+  transition: max-height 0.28s var(--ease-out), opacity 0.2s var(--ease-out);
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+#mobile-menu.is-open {
+  max-height: 640px;
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Misc components
+   ========================================================================== */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s, transform 0.1s;
+}
+.chip:hover { border-color: var(--color-primary); }
+.chip.is-active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+.chip-removable {
+  cursor: pointer;
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-bg-alt);
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), transparent);
+  animation: skeleton-sheen 1.5s infinite;
+}
+@keyframes skeleton-sheen {
+  100% { transform: translateX(100%); }
+}
+
+.step-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--color-border);
+  transition: background-color 0.2s, transform 0.2s;
+}
+.step-dot.is-active { background: var(--color-accent); transform: scale(1.3); }
+.step-dot.is-done { background: var(--color-primary); }
+
+.wizard-card {
+  border: 1.5px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  cursor: pointer;
+}
+.wizard-card:hover { border-color: var(--color-primary); box-shadow: var(--shadow-sm); }
+.wizard-card.is-selected {
+  border-color: var(--color-primary);
+  background: var(--color-bg-alt);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-item[open] > summary .faq-chevron { transform: rotate(180deg); }
+.faq-chevron { transition: transform 0.2s var(--ease-out); }
+
+/* line-clamp helpers (Tailwind's line-clamp plugin isn't in the CDN build) */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Print stylesheet — recipe page only
+   ========================================================================== */
+@media print {
+  nav, footer, .no-print, #toast-container, .modal-backdrop, .modal-panel,
+  #mobile-menu, #cooking-mode-overlay {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .recipe-content, .recipe-content * {
+    visibility: visible;
+  }
+  .recipe-content {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .recipe-media { display: none !important; }
+  a { text-decoration: none !important; color: #000 !important; }
+  .print-hide { display: none !important; }
+  .ingredient-row { border-bottom: 1px dotted #999 !important; break-inside: avoid; }
+  .recipe-content h1, .recipe-content h2, .recipe-content h3 { break-after: avoid; }
+  section { break-inside: avoid-page; }
+}

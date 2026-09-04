@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block page_id %}contact{% endblock %}
+{% block title %}Contact — AI Recipe Agent{% endblock %}
+{% block meta_description %}Get in touch with the AI Recipe Agent team.{% endblock %}
+{% block content %}
+
+<section class="bg-bg-alt border-b border-border">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 text-center">
+    <h1 class="font-serif text-3xl md:text-4xl font-semibold">Contact Us</h1>
+    <p class="text-ink-muted mt-3">Questions, feedback, or ideas? We'd love to hear from you.</p>
+  </div>
+</section>
+
+<section class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
+  <form id="contact-form" class="space-y-5" novalidate>
+    <div>
+      <label for="contact-name" class="text-sm font-medium">Name</label>
+      <input id="contact-name" name="name" type="text" required class="mt-1.5 w-full border border-border rounded-lg px-4 py-2.5 text-sm bg-surface focus:border-primary outline-none" />
+    </div>
+    <div>
+      <label for="contact-email" class="text-sm font-medium">Email</label>
+      <input id="contact-email" name="email" type="email" required class="mt-1.5 w-full border border-border rounded-lg px-4 py-2.5 text-sm bg-surface focus:border-primary outline-none" />
+    </div>
+    <div>
+      <label for="contact-subject" class="text-sm font-medium">Subject</label>
+      <input id="contact-subject" name="subject" type="text" required class="mt-1.5 w-full border border-border rounded-lg px-4 py-2.5 text-sm bg-surface focus:border-primary outline-none" />
+    </div>
+    <div>
+      <label for="contact-message" class="text-sm font-medium">Message</label>
+      <textarea id="contact-message" name="message" rows="5" required class="mt-1.5 w-full border border-border rounded-lg px-4 py-2.5 text-sm bg-surface focus:border-primary outline-none"></textarea>
+    </div>
+    <button id="contact-submit" type="submit" class="w-full bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3.5 rounded-full transition-colors">Send Message</button>
+    <div id="contact-success" class="hidden text-center bg-primary/5 border border-primary/20 rounded-xl p-5">
+      <p class="font-serif text-lg font-semibold">Message received.</p>
+      <p class="text-sm text-ink-muted mt-1">Thanks for reaching out — we'll get back to you soon.</p>
+    </div>
+  </form>
+</section>
+
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  const form = document.getElementById("contact-form");
+  const success = document.getElementById("contact-success");
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const submitBtn = document.getElementById("contact-submit");
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Sending…";
+    const payload = {
+      name: document.getElementById("contact-name").value,
+      email: document.getElementById("contact-email").value,
+      subject: document.getElementById("contact-subject").value,
+      message: document.getElementById("contact-message").value,
+    };
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error("failed");
+      form.querySelectorAll("input, textarea, button").forEach((el) => (el.style.display = "none"));
+      success.classList.remove("hidden");
+      window.showToast("Message received.", "success");
+    } catch (err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Send Message";
+      window.showToast("Couldn't send your message. Please try again.", "error");
+    }
+  });
+})();
+</script>
+{% endblock %}

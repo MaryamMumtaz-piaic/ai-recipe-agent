@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page_id %}404{% endblock %}
+{% block title %}Recipe Not Found — AI Recipe Agent{% endblock %}
+{% block content %}
+
+<section class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center">
+  <div class="text-6xl mb-6" aria-hidden="true">🍽️</div>
+  <h1 class="font-serif text-3xl md:text-4xl font-semibold">404</h1>
+  <p class="text-ink-muted mt-3 text-lg">Looks like this recipe got lost in the kitchen.</p>
+  <div class="mt-8 flex flex-wrap justify-center gap-4">
+    <a href="/" class="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-full transition-colors">Back to Home</a>
+    <a href="/discover" class="inline-flex items-center gap-2 bg-surface border border-border hover:border-primary text-ink font-semibold px-6 py-3 rounded-full transition-colors">Explore Recipes</a>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,4851 @@
+[
+  {
+    "id": "rec_chickenkarah",
+    "title": "Chicken Karahi",
+    "slug": "chicken-karahi",
+    "description": "A rich, aromatic tomato-based chicken dish cooked in a traditional wok-style karahi with ginger, garlic, and green chilies.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Main Course",
+    "emoji": "🍛",
+    "gradient": "terracotta",
+    "prep_time": "15 minutes",
+    "cook_time": "35 minutes",
+    "total_time": "50 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.9,
+    "review_count": 812,
+    "budget": {
+      "amount": 2200,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken, bone-in pieces",
+        "quantity": 750,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Tomatoes, chopped",
+        "quantity": 500,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Onion, sliced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Ginger-garlic paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Green chilies, slit",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Cooking oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Red chili powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Cumin seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Fresh coriander, chopped",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Ginger, julienned",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sear the chicken",
+        "instruction": "Heat oil in a heavy-bottomed karahi or wok over medium-high heat. Add chicken pieces and sear for 6-8 minutes, turning occasionally, until lightly browned on all sides.",
+        "duration": "6-8 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 2,
+        "title": "Build the base",
+        "instruction": "Add sliced onion and cumin seeds. Cook for 4-5 minutes until the onion softens and turns translucent.",
+        "duration": "4-5 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Add aromatics",
+        "instruction": "Stir in ginger-garlic paste and cook for 1 minute until fragrant, stirring constantly to prevent burning.",
+        "duration": "1 minute",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Cook the tomatoes",
+        "instruction": "Add chopped tomatoes, red chili powder, and salt. Cook for 10-12 minutes, mashing occasionally, until the tomatoes break down into a thick, oil-separated masala.",
+        "duration": "10-12 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 5,
+        "title": "Simmer the chicken",
+        "instruction": "Add green chilies, cover, and simmer for 12-15 minutes until the chicken is cooked through and tender, stirring occasionally.",
+        "duration": "12-15 minutes",
+        "heat": "low-medium heat"
+      },
+      {
+        "step": 6,
+        "title": "Finish and garnish",
+        "instruction": "Uncover, increase heat briefly to thicken the sauce if needed, then remove from heat. Garnish with julienned ginger and fresh coriander.",
+        "duration": "2 minutes",
+        "heat": "medium-high heat"
+      }
+    ],
+    "tips": [
+      "Use bone-in chicken for deeper flavor in the gravy.",
+      "For an authentic finish, add a splash of water and a knob of butter at the very end for gloss."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Fresh tomatoes",
+        "substitute": "Canned crushed tomatoes",
+        "effect": "Slightly sweeter, smoother sauce with less texture than fresh tomatoes."
+      }
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 38,
+      "carbs_g": 12,
+      "fat_g": 25,
+      "fiber_g": 3,
+      "sodium_mg": 680
+    },
+    "equipment": [
+      "Karahi or heavy wok",
+      "Wooden spatula"
+    ],
+    "storage": "Refrigerate in an airtight container for up to 3 days. Reheat gently on the stovetop.",
+    "serving_suggestions": [
+      "Serve hot with naan or steamed basmati rice and a side of raita."
+    ],
+    "tags": [
+      "spicy",
+      "gluten-free option",
+      "quick dinner",
+      "family favorite"
+    ],
+    "dietary": [
+      "Halal"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "rec_chickenbirya",
+    "title": "Chicken Biryani",
+    "slug": "chicken-biryani",
+    "description": "Fragrant basmati rice layered with spiced marinated chicken, caramelized onions, and saffron, slow-cooked to perfection.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Main Course",
+    "emoji": "🍚",
+    "gradient": "sage",
+    "prep_time": "30 minutes",
+    "cook_time": "50 minutes",
+    "total_time": "1 hour 20 minutes",
+    "difficulty": "Advanced",
+    "servings": 6,
+    "rating": 4.9,
+    "review_count": 1204,
+    "budget": {
+      "amount": 2800,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Basmati rice",
+        "quantity": 600,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Chicken, bone-in pieces",
+        "quantity": 1,
+        "unit": "kg",
+        "notes": ""
+      },
+      {
+        "item": "Yogurt",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Onions, thinly sliced and fried",
+        "quantity": 3,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Tomatoes, chopped",
+        "quantity": 2,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Biryani masala",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Ginger-garlic paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Green chilies",
+        "quantity": 5,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Mint leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Fresh coriander",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Saffron",
+        "quantity": 1,
+        "unit": "pinch",
+        "notes": "soaked in 3 tbsp warm milk"
+      },
+      {
+        "item": "Cooking oil or ghee",
+        "quantity": 6,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Whole spices (bay leaf, cinnamon, cardamom)",
+        "quantity": 1,
+        "unit": "set",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate the chicken",
+        "instruction": "Combine chicken with yogurt, ginger-garlic paste, biryani masala, and salt. Marinate for at least 30 minutes (longer improves flavor).",
+        "duration": "30 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 2,
+        "title": "Par-cook the rice",
+        "instruction": "Boil water with whole spices and salt. Add soaked basmati rice and cook until 70% done (still firm at the core). Drain and set aside.",
+        "duration": "8-10 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 3,
+        "title": "Cook the chicken masala",
+        "instruction": "Heat oil, sauté chopped tomatoes and half the fried onions for 5 minutes, then add the marinated chicken. Cook covered for 20-25 minutes until chicken is tender and the gravy thickens.",
+        "duration": "20-25 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Layer the biryani",
+        "instruction": "In a heavy pot, spread the chicken masala as the base layer, then top evenly with the par-cooked rice. Sprinkle remaining fried onions, mint, coriander, and saffron milk over the top.",
+        "duration": "5 minutes",
+        "heat": "off heat"
+      },
+      {
+        "step": 5,
+        "title": "Dum cook",
+        "instruction": "Cover tightly with a lid (seal with dough or foil if needed) and cook on very low heat for 20-25 minutes to let the flavors steam through.",
+        "duration": "20-25 minutes",
+        "heat": "low heat"
+      },
+      {
+        "step": 6,
+        "title": "Rest and serve",
+        "instruction": "Turn off the heat and let the biryani rest, covered, for 10 minutes before gently fluffing and serving.",
+        "duration": "10 minutes",
+        "heat": "off heat"
+      }
+    ],
+    "tips": [
+      "Soak the rice for 30 minutes before cooking for longer, fluffier grains.",
+      "Don't skip the resting step — it lets the layers finish steaming evenly."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Saffron",
+        "substitute": "A pinch of turmeric in the milk",
+        "effect": "Loses saffron's floral aroma but still gives a warm golden color."
+      }
+    ],
+    "nutrition": {
+      "calories": 610,
+      "protein_g": 34,
+      "carbs_g": 68,
+      "fat_g": 22,
+      "fiber_g": 3,
+      "sodium_mg": 740
+    },
+    "equipment": [
+      "Heavy-bottomed pot with tight lid",
+      "Large strainer"
+    ],
+    "storage": "Refrigerate up to 3 days; reheat with a splash of water, covered, over low heat.",
+    "serving_suggestions": [
+      "Serve with raita, salad, and boiled eggs."
+    ],
+    "tags": [
+      "festive",
+      "layered rice",
+      "crowd-pleaser"
+    ],
+    "dietary": [
+      "Halal"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-27T00:00:00Z"
+  },
+  {
+    "id": "rec_daalchawal",
+    "title": "Daal Chawal (Yellow Lentils & Rice)",
+    "slug": "daal-chawal",
+    "description": "A comforting, budget-friendly staple of spiced yellow lentils served over fluffy steamed rice.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Main Course",
+    "emoji": "🍲",
+    "gradient": "saffron",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.6,
+    "review_count": 356,
+    "budget": {
+      "amount": 450,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Yellow split lentils (chana daal or masoor)",
+        "quantity": 250,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Basmati rice",
+        "quantity": 300,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Onion, chopped",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Tomato, chopped",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Cumin seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Turmeric powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Red chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Cooking oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Cook the lentils",
+        "instruction": "Rinse lentils and boil in 700ml water with turmeric and salt for 20-25 minutes until soft and starting to break down.",
+        "duration": "20-25 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 2,
+        "title": "Cook the rice",
+        "instruction": "Simultaneously, rinse rice and cook in a separate pot with salted water until fluffy and fully cooked.",
+        "duration": "15 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Prepare the tarka",
+        "instruction": "In a small pan, heat oil and cumin seeds until they sizzle, then add garlic and onion. Fry for 4-5 minutes until golden.",
+        "duration": "4-5 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Finish the daal",
+        "instruction": "Add chopped tomato and red chili powder to the tarka, cook for 3 minutes until softened, then pour the entire tarka over the cooked lentils and stir to combine.",
+        "duration": "3 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 5,
+        "title": "Serve",
+        "instruction": "Simmer the daal for 2 more minutes to marry the flavors, then serve hot over steamed rice.",
+        "duration": "2 minutes",
+        "heat": "low heat"
+      }
+    ],
+    "tips": [
+      "Mash some of the lentils against the pot for a creamier texture.",
+      "A final tarka of hot oil, garlic, and dried red chili on top adds restaurant-style flavor."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Chana daal",
+        "substitute": "Red lentils (masoor)",
+        "effect": "Cooks faster and gives a softer, creamier texture with a milder flavor."
+      }
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein_g": 16,
+      "carbs_g": 62,
+      "fat_g": 9,
+      "fiber_g": 8,
+      "sodium_mg": 420
+    },
+    "equipment": [
+      "Two medium pots",
+      "Small frying pan for tarka"
+    ],
+    "storage": "Refrigerate up to 4 days; freezes well for up to 2 months.",
+    "serving_suggestions": [
+      "Serve with a wedge of lemon, sliced onion, and green chilies."
+    ],
+    "tags": [
+      "budget-friendly",
+      "vegetarian",
+      "comfort food",
+      "high-protein"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-23T00:00:00Z"
+  },
+  {
+    "id": "rec_garlicnaan",
+    "title": "Garlic Naan",
+    "slug": "garlic-naan",
+    "description": "Soft, pillowy leavened flatbread brushed with garlic butter and baked until blistered and golden.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Side Dish",
+    "emoji": "🫓",
+    "gradient": "berry",
+    "prep_time": "1 hour 30 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "1 hour 45 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 289,
+    "budget": {
+      "amount": 350,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "All-purpose flour",
+        "quantity": 400,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Yogurt",
+        "quantity": 100,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Instant yeast",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Warm water",
+        "quantity": 150,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 4,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Butter, melted",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Fresh coriander, chopped",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Activate the yeast",
+        "instruction": "Dissolve sugar and yeast in warm water. Let sit for 5-10 minutes until foamy.",
+        "duration": "5-10 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 2,
+        "title": "Make the dough",
+        "instruction": "Combine flour, salt, yogurt, and the yeast mixture. Knead for 8-10 minutes until smooth and elastic.",
+        "duration": "8-10 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Let it rise",
+        "instruction": "Cover the dough and let it rise in a warm place until doubled in size.",
+        "duration": "1 hour",
+        "heat": "room temperature"
+      },
+      {
+        "step": 4,
+        "title": "Shape and cook",
+        "instruction": "Divide into 6 balls, roll each into an oval, and cook on a very hot skillet or in a hot oven (250°C) until puffed and charred in spots.",
+        "duration": "2-3 minutes per side",
+        "heat": "high heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Brush hot naan immediately with garlic butter and sprinkle with fresh coriander.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "A cast-iron skillet gets closest to tandoor-style char at home.",
+      "Keep naan covered with a cloth after cooking to stay soft."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Yogurt",
+        "substitute": "Milk with 1 tsp lemon juice",
+        "effect": "Slightly less tang and a marginally less tender crumb."
+      }
+    ],
+    "nutrition": {
+      "calories": 290,
+      "protein_g": 7,
+      "carbs_g": 45,
+      "fat_g": 9,
+      "fiber_g": 2,
+      "sodium_mg": 380
+    },
+    "equipment": [
+      "Cast-iron skillet or oven",
+      "Rolling pin"
+    ],
+    "storage": "Store in an airtight bag at room temperature for 1 day, or freeze for up to 1 month.",
+    "serving_suggestions": [
+      "Perfect alongside karahi, curries, or daal."
+    ],
+    "tags": [
+      "bread",
+      "vegetarian",
+      "shareable"
+    ],
+    "dietary": [
+      "Vegetarian"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "rec_mangolassi",
+    "title": "Mango Lassi",
+    "slug": "mango-lassi",
+    "description": "A refreshing, creamy yogurt-based drink blended with sweet ripe mango and a hint of cardamom.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Drinks",
+    "emoji": "🥭",
+    "gradient": "olive",
+    "prep_time": "5 minutes",
+    "cook_time": "0 minutes",
+    "total_time": "5 minutes",
+    "difficulty": "Easy",
+    "servings": 2,
+    "rating": 4.8,
+    "review_count": 198,
+    "budget": {
+      "amount": 300,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ripe mango, chopped",
+        "quantity": 2,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Plain yogurt",
+        "quantity": 1,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Sugar or honey",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Cardamom powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Ice cubes",
+        "quantity": 6,
+        "unit": "piece",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Blend",
+        "instruction": "Combine mango, yogurt, milk, sugar, and cardamom powder in a blender.",
+        "duration": "1 minute",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Add ice and blend again",
+        "instruction": "Add ice cubes and blend until smooth and frothy.",
+        "duration": "1 minute",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Serve",
+        "instruction": "Pour into glasses and serve immediately, garnished with a mint leaf if desired.",
+        "duration": "",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Use frozen mango chunks for an extra-thick, milkshake-like texture without needing much ice."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Dairy yogurt",
+        "substitute": "Coconut yogurt",
+        "effect": "Adds a subtle coconut note and makes the drink dairy-free."
+      }
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein_g": 6,
+      "carbs_g": 40,
+      "fat_g": 4,
+      "fiber_g": 2,
+      "sodium_mg": 60
+    },
+    "equipment": [
+      "Blender"
+    ],
+    "storage": "Best served fresh; can be refrigerated for up to 1 day in a sealed container.",
+    "serving_suggestions": [
+      "Great alongside spicy dishes like karahi or biryani to balance the heat."
+    ],
+    "tags": [
+      "quick",
+      "refreshing",
+      "vegetarian",
+      "no-cook"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-30T00:00:00Z"
+  },
+  {
+    "id": "rec_butterchicke",
+    "title": "Butter Chicken (Murgh Makhani)",
+    "slug": "butter-chicken",
+    "description": "Tender tandoori-spiced chicken simmered in a velvety, mildly spiced tomato-butter-cream sauce.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "category": "Main Course",
+    "emoji": "🍗",
+    "gradient": "clay",
+    "prep_time": "20 minutes",
+    "cook_time": "35 minutes",
+    "total_time": "55 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.9,
+    "review_count": 967,
+    "budget": {
+      "amount": 2100,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken breast or thigh, cubed",
+        "quantity": 700,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Yogurt",
+        "quantity": 100,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Tandoori/tikka masala",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Tomato puree",
+        "quantity": 400,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": 150,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Ginger-garlic paste",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Kashmiri red chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Garam masala",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Fresh coriander",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate the chicken",
+        "instruction": "Mix chicken with yogurt, tandoori masala, and half the ginger-garlic paste. Marinate at least 30 minutes.",
+        "duration": "30 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 2,
+        "title": "Sear the chicken",
+        "instruction": "Sear the marinated chicken in a hot pan with 1 tbsp butter for 5-6 minutes until browned but not fully cooked through. Set aside.",
+        "duration": "5-6 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 3,
+        "title": "Build the sauce",
+        "instruction": "In the same pan, melt remaining butter, add remaining ginger-garlic paste, and cook 1 minute. Add tomato puree, chili powder, and sugar. Simmer for 12-15 minutes until thickened and the raw tomato smell is gone.",
+        "duration": "12-15 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Combine and finish",
+        "instruction": "Stir in cream and garam masala, then return the chicken to the pan. Simmer for 8-10 minutes until the chicken is fully cooked and the sauce coats it thickly.",
+        "duration": "8-10 minutes",
+        "heat": "medium-low heat"
+      },
+      {
+        "step": 5,
+        "title": "Garnish and serve",
+        "instruction": "Remove from heat, stir in a final knob of butter, and garnish with fresh coriander.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Blending the sauce before adding cream gives an ultra-smooth restaurant texture.",
+      "Kashmiri chili powder gives color without excessive heat."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Heavy cream",
+        "substitute": "Cashew paste (soaked cashews blended with water)",
+        "effect": "Slightly nuttier flavor and a bit lighter, still creamy."
+      }
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein_g": 36,
+      "carbs_g": 14,
+      "fat_g": 36,
+      "fiber_g": 2,
+      "sodium_mg": 610
+    },
+    "equipment": [
+      "Heavy skillet or pan",
+      "Blender (optional)"
+    ],
+    "storage": "Refrigerate up to 3 days; freezes well for up to 2 months.",
+    "serving_suggestions": [
+      "Serve with garlic naan or steamed basmati rice."
+    ],
+    "tags": [
+      "creamy",
+      "crowd-pleaser",
+      "restaurant-style"
+    ],
+    "dietary": [
+      "Halal"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-29T00:00:00Z"
+  },
+  {
+    "id": "rec_masaladosa",
+    "title": "Masala Dosa",
+    "slug": "masala-dosa",
+    "description": "A crisp, golden fermented rice-and-lentil crepe filled with a spiced potato masala, a South Indian breakfast classic.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "category": "Breakfast",
+    "emoji": "🥞",
+    "gradient": "terracotta",
+    "prep_time": "20 minutes (plus fermentation)",
+    "cook_time": "25 minutes",
+    "total_time": "45 minutes",
+    "difficulty": "Advanced",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 421,
+    "budget": {
+      "amount": 550,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Dosa batter (rice & urad dal, fermented)",
+        "quantity": 800,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Potatoes, boiled and cubed",
+        "quantity": 4,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Onion, sliced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Mustard seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Curry leaves",
+        "quantity": 10,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Turmeric powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Green chilies, chopped",
+        "quantity": 2,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Cooking oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Make the potato masala",
+        "instruction": "Heat oil, add mustard seeds and curry leaves until they crackle. Add onion and green chilies, cook 4-5 minutes until soft.",
+        "duration": "4-5 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 2,
+        "title": "Finish the masala",
+        "instruction": "Add turmeric and boiled potatoes, mash lightly, season with salt, and cook 5 minutes, stirring to combine. Keep warm.",
+        "duration": "5 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Heat the pan",
+        "instruction": "Heat a flat non-stick or cast-iron griddle and lightly grease it.",
+        "duration": "2 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 4,
+        "title": "Spread the batter",
+        "instruction": "Pour a ladle of dosa batter in the center and spread outward in a thin, even circular motion using the back of the ladle.",
+        "duration": "1 minute",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 5,
+        "title": "Cook until crisp",
+        "instruction": "Drizzle a little oil around the edges and cook until the underside is golden and crisp, about 2-3 minutes. Do not flip.",
+        "duration": "2-3 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 6,
+        "title": "Fill and fold",
+        "instruction": "Place a portion of potato masala in the center, fold the dosa over, and serve immediately.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "A well-fermented, slightly sour batter is key to authentic flavor.",
+      "Keep the griddle consistently hot for even crisping."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Dosa batter",
+        "substitute": "Store-bought fermented dosa/idli batter",
+        "effect": "Saves time; flavor is close but slightly less tangy than home-fermented batter."
+      }
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein_g": 8,
+      "carbs_g": 54,
+      "fat_g": 10,
+      "fiber_g": 4,
+      "sodium_mg": 420
+    },
+    "equipment": [
+      "Flat griddle or tawa",
+      "Ladle"
+    ],
+    "storage": "Batter keeps refrigerated up to 3 days; cooked dosa is best fresh.",
+    "serving_suggestions": [
+      "Serve with coconut chutney and sambar."
+    ],
+    "tags": [
+      "vegetarian",
+      "fermented",
+      "South Indian",
+      "breakfast"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-15T00:00:00Z"
+  },
+  {
+    "id": "rec_vegetablefri",
+    "title": "Vegetable Fried Rice",
+    "slug": "vegetable-fried-rice",
+    "description": "A quick, wok-tossed fried rice loaded with crisp vegetables, garlic, and soy sauce — ready in under 30 minutes.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "category": "Main Course",
+    "emoji": "🍚",
+    "gradient": "sage",
+    "prep_time": "10 minutes",
+    "cook_time": "12 minutes",
+    "total_time": "22 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.6,
+    "review_count": 512,
+    "budget": {
+      "amount": 500,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Cooked, chilled rice (day-old)",
+        "quantity": 4,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Carrot, diced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Peas",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Bell pepper, diced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, sliced",
+        "quantity": 3,
+        "unit": "stalk",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Eggs, beaten",
+        "quantity": 2,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Soy sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "White pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Scramble the eggs",
+        "instruction": "Heat 1 tbsp oil in a hot wok, pour in beaten eggs, scramble quickly, and set aside.",
+        "duration": "1-2 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 2,
+        "title": "Stir-fry the vegetables",
+        "instruction": "Add remaining oil, then garlic, carrot, and bell pepper. Stir-fry for 3-4 minutes until just tender-crisp.",
+        "duration": "3-4 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 3,
+        "title": "Add the rice",
+        "instruction": "Add the cold rice, breaking up clumps with a spatula, and stir-fry for 4-5 minutes until heated through and starting to crisp slightly.",
+        "duration": "4-5 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 4,
+        "title": "Season",
+        "instruction": "Add peas, scrambled eggs, soy sauce, white pepper, and half the spring onion. Toss everything together for 2 minutes.",
+        "duration": "2 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Drizzle sesame oil, toss once more, and garnish with remaining spring onion before serving.",
+        "duration": "30 seconds",
+        "heat": "off heat"
+      }
+    ],
+    "tips": [
+      "Day-old, chilled rice fries up far less mushy than freshly cooked rice.",
+      "Keep the wok very hot throughout for that signature 'wok hei' flavor."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Eggs",
+        "substitute": "Firm tofu, crumbled",
+        "effect": "Makes the dish vegan; slightly less rich but still satisfying protein."
+      }
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein_g": 11,
+      "carbs_g": 58,
+      "fat_g": 11,
+      "fiber_g": 3,
+      "sodium_mg": 720
+    },
+    "equipment": [
+      "Wok or large skillet",
+      "Spatula"
+    ],
+    "storage": "Refrigerate up to 3 days; reheat in a hot pan or microwave.",
+    "serving_suggestions": [
+      "Pairs well with chili oil or a side of spring rolls."
+    ],
+    "tags": [
+      "quick",
+      "vegetarian option",
+      "budget-friendly",
+      "weeknight"
+    ],
+    "dietary": [
+      "Vegetarian option"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-31T00:00:00Z"
+  },
+  {
+    "id": "rec_kungpaochick",
+    "title": "Kung Pao Chicken",
+    "slug": "kung-pao-chicken",
+    "description": "A bold Sichuan stir-fry of diced chicken, roasted peanuts, and dried chilies in a tangy-sweet-savory sauce.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "category": "Main Course",
+    "emoji": "🌶️",
+    "gradient": "saffron",
+    "prep_time": "20 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "35 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 388,
+    "budget": {
+      "amount": 700,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken breast, diced",
+        "quantity": 600,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Roasted peanuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Dried red chilies",
+        "quantity": 8,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Ginger, minced",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, chopped",
+        "quantity": 3,
+        "unit": "stalk",
+        "notes": ""
+      },
+      {
+        "item": "Soy sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Rice vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Cornstarch",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate the chicken",
+        "instruction": "Toss diced chicken with 1 tbsp soy sauce and 1 tbsp cornstarch. Let sit for 10 minutes.",
+        "duration": "10 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 2,
+        "title": "Mix the sauce",
+        "instruction": "Whisk together remaining soy sauce, rice vinegar, sugar, and remaining cornstarch with 3 tbsp water. Set aside.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Sear the chicken",
+        "instruction": "Heat oil in a wok over high heat, add chicken, and stir-fry until golden and cooked through, about 5-6 minutes. Remove and set aside.",
+        "duration": "5-6 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 4,
+        "title": "Toast the aromatics",
+        "instruction": "In the same wok, add dried chilies, garlic, and ginger. Stir-fry for 30-60 seconds until fragrant (careful not to burn).",
+        "duration": "30-60 seconds",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 5,
+        "title": "Combine and finish",
+        "instruction": "Return chicken to the wok, pour in the sauce, and toss until it thickens and coats everything, about 2 minutes. Stir in peanuts and spring onion just before serving.",
+        "duration": "2 minutes",
+        "heat": "high heat"
+      }
+    ],
+    "tips": [
+      "Toast the peanuts lightly beforehand for extra crunch and flavor.",
+      "Adjust dried chilies for your preferred spice level."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Peanuts",
+        "substitute": "Cashews",
+        "effect": "Milder, slightly sweeter crunch — also useful for peanut allergies."
+      }
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein_g": 34,
+      "carbs_g": 20,
+      "fat_g": 27,
+      "fiber_g": 3,
+      "sodium_mg": 780
+    },
+    "equipment": [
+      "Wok",
+      "Mixing bowls"
+    ],
+    "storage": "Refrigerate up to 3 days.",
+    "serving_suggestions": [
+      "Serve over steamed jasmine rice."
+    ],
+    "tags": [
+      "spicy",
+      "Sichuan",
+      "nutty"
+    ],
+    "dietary": [
+      "Halal",
+      "Nut-containing"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": "rec_chickenteriy",
+    "title": "Chicken Teriyaki",
+    "slug": "chicken-teriyaki",
+    "description": "Pan-seared chicken thighs glazed in a glossy, sweet-savory soy-mirin sauce, a Japanese home-cooking staple.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "category": "Main Course",
+    "emoji": "🍢",
+    "gradient": "berry",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 445,
+    "budget": {
+      "amount": 800,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken thighs, boneless",
+        "quantity": 700,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Soy sauce",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Mirin",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sake or rice vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, grated",
+        "quantity": 1,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Ginger, grated",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, sliced",
+        "quantity": 1,
+        "unit": "stalk",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Mix the sauce",
+        "instruction": "Whisk together soy sauce, mirin, sake, sugar, garlic, and ginger in a small bowl.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Sear the chicken",
+        "instruction": "Heat oil in a skillet over medium-high heat. Place chicken thighs skin-side down and cook for 6-7 minutes until deeply golden.",
+        "duration": "6-7 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 3,
+        "title": "Flip and cook through",
+        "instruction": "Flip and cook the other side for 5-6 minutes until nearly cooked through.",
+        "duration": "5-6 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Glaze",
+        "instruction": "Pour the sauce over the chicken, reduce heat to medium-low, and simmer, spooning sauce over the chicken, for 5-6 minutes until it thickens into a glossy glaze and chicken is cooked through (internal temp 74°C/165°F).",
+        "duration": "5-6 minutes",
+        "heat": "medium-low heat"
+      },
+      {
+        "step": 5,
+        "title": "Rest and serve",
+        "instruction": "Rest for 3 minutes, slice, and spoon remaining glaze over. Garnish with sesame seeds and spring onion.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Let the sauce reduce slowly for a proper glaze — rushing on high heat can burn the sugars.",
+      "Chicken thighs stay juicier than breast for this method."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Mirin",
+        "substitute": "1 tbsp sugar + 2 tbsp water",
+        "effect": "Slightly less complex sweetness but a very close substitute."
+      }
+    ],
+    "nutrition": {
+      "calories": 410,
+      "protein_g": 32,
+      "carbs_g": 14,
+      "fat_g": 24,
+      "fiber_g": 0,
+      "sodium_mg": 890
+    },
+    "equipment": [
+      "Skillet"
+    ],
+    "storage": "Refrigerate up to 3 days.",
+    "serving_suggestions": [
+      "Serve with steamed rice and steamed broccoli or edamame."
+    ],
+    "tags": [
+      "glazed",
+      "weeknight",
+      "sweet-savory"
+    ],
+    "dietary": [
+      "Halal"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-28T00:00:00Z"
+  },
+  {
+    "id": "rec_misosoup",
+    "title": "Miso Soup",
+    "slug": "miso-soup",
+    "description": "A delicate, umami-rich soup of dashi broth, miso paste, silken tofu, and wakame seaweed.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "category": "Soup",
+    "emoji": "🍜",
+    "gradient": "olive",
+    "prep_time": "5 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "15 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.5,
+    "review_count": 267,
+    "budget": {
+      "amount": 350,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Dashi stock (or water + dashi powder)",
+        "quantity": 1,
+        "unit": "liter",
+        "notes": ""
+      },
+      {
+        "item": "Miso paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Silken tofu, cubed",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Dried wakame seaweed",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, sliced",
+        "quantity": 2,
+        "unit": "stalk",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Rehydrate wakame",
+        "instruction": "Soak dried wakame in water for 5 minutes until softened, then drain.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Heat the dashi",
+        "instruction": "Bring dashi stock to a gentle simmer in a pot — do not let it boil hard.",
+        "duration": "3-4 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Dissolve the miso",
+        "instruction": "Ladle a little hot dashi into a small bowl, whisk in miso paste until smooth, then stir it back into the pot.",
+        "duration": "1 minute",
+        "heat": "low heat"
+      },
+      {
+        "step": 4,
+        "title": "Add tofu and wakame",
+        "instruction": "Gently add tofu cubes and wakame, and warm through for 2-3 minutes without boiling (boiling dulls the miso flavor).",
+        "duration": "2-3 minutes",
+        "heat": "low heat"
+      },
+      {
+        "step": 5,
+        "title": "Serve",
+        "instruction": "Ladle into bowls and garnish with spring onion.",
+        "duration": "",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Never boil miso soup vigorously — it destroys the delicate flavor and beneficial cultures in the miso.",
+      "Add miso at the very end for the freshest taste."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Dashi stock",
+        "substitute": "Vegetable broth",
+        "effect": "Loses the distinct smoky-umami dashi note but keeps the soup vegetarian-friendly."
+      }
+    ],
+    "nutrition": {
+      "calories": 90,
+      "protein_g": 7,
+      "carbs_g": 6,
+      "fat_g": 4,
+      "fiber_g": 1,
+      "sodium_mg": 680
+    },
+    "equipment": [
+      "Pot",
+      "Whisk or small strainer"
+    ],
+    "storage": "Best fresh; refrigerate up to 1 day (tofu texture softens on reheating).",
+    "serving_suggestions": [
+      "A classic starter alongside sushi, teriyaki, or a rice bowl."
+    ],
+    "tags": [
+      "quick",
+      "light",
+      "umami",
+      "vegetarian option"
+    ],
+    "dietary": [
+      "Vegetarian option",
+      "Dairy-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-02T00:00:00Z"
+  },
+  {
+    "id": "rec_bibimbap",
+    "title": "Bibimbap",
+    "slug": "bibimbap",
+    "description": "A vibrant Korean rice bowl topped with seasoned sautéed vegetables, marinated beef, a fried egg, and spicy gochujang sauce.",
+    "cuisine": "Korean",
+    "region": "East Asia",
+    "category": "Main Course",
+    "emoji": "🥗",
+    "gradient": "clay",
+    "prep_time": "25 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "45 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 356,
+    "budget": {
+      "amount": 900,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Cooked short-grain rice",
+        "quantity": 4,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Beef sirloin, thinly sliced",
+        "quantity": 300,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Spinach",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Carrot, julienned",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Zucchini, julienned",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Bean sprouts",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Shiitake mushrooms, sliced",
+        "quantity": 150,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Eggs",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Soy sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Gochujang (Korean chili paste)",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame seeds",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate the beef",
+        "instruction": "Toss beef slices with 1 tbsp soy sauce, 1 tbsp sesame oil, and half the garlic. Marinate 15 minutes.",
+        "duration": "15 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 2,
+        "title": "Blanch and season spinach",
+        "instruction": "Blanch spinach for 30 seconds, drain, squeeze out water, and toss with a little sesame oil, garlic, and salt.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Sauté each vegetable separately",
+        "instruction": "Quickly sauté carrot, zucchini, bean sprouts, and mushrooms individually for 2-3 minutes each, seasoning lightly with salt and sesame oil, keeping them separate.",
+        "duration": "10-12 minutes total",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 4,
+        "title": "Cook the beef",
+        "instruction": "Stir-fry the marinated beef in a hot pan for 3-4 minutes until browned and cooked through.",
+        "duration": "3-4 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 5,
+        "title": "Fry the eggs",
+        "instruction": "Fry eggs sunny-side up in a separate pan, keeping yolks runny.",
+        "duration": "2-3 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 6,
+        "title": "Assemble",
+        "instruction": "Divide rice among bowls, arrange vegetables, beef, and a fried egg on top in sections. Serve with gochujang and sesame seeds, mixing everything together just before eating.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Cook each vegetable separately to preserve distinct textures and flavors.",
+      "Mix vigorously right before eating so every bite gets a bit of everything."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Beef",
+        "substitute": "Marinated tofu",
+        "effect": "Makes the dish vegetarian with a similar savory-marinated bite, though less rich."
+      }
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein_g": 32,
+      "carbs_g": 62,
+      "fat_g": 20,
+      "fiber_g": 6,
+      "sodium_mg": 820
+    },
+    "equipment": [
+      "Several small pans",
+      "Mixing bowls"
+    ],
+    "storage": "Best fresh; store components separately in the fridge for up to 2 days.",
+    "serving_suggestions": [
+      "Serve with a side of kimchi."
+    ],
+    "tags": [
+      "colorful",
+      "balanced",
+      "customizable"
+    ],
+    "dietary": [
+      "Halal available",
+      "Gluten-free option"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-24T00:00:00Z"
+  },
+  {
+    "id": "rec_kimchifriedr",
+    "title": "Kimchi Fried Rice",
+    "slug": "kimchi-fried-rice",
+    "description": "A punchy, quick weeknight fried rice built around tangy fermented kimchi and topped with a fried egg.",
+    "cuisine": "Korean",
+    "region": "East Asia",
+    "category": "Main Course",
+    "emoji": "🍳",
+    "gradient": "terracotta",
+    "prep_time": "5 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "20 minutes",
+    "difficulty": "Easy",
+    "servings": 2,
+    "rating": 4.7,
+    "review_count": 301,
+    "budget": {
+      "amount": 400,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Cooked, chilled rice",
+        "quantity": 2,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Kimchi, chopped",
+        "quantity": 1,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Kimchi juice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, sliced",
+        "quantity": 2,
+        "unit": "stalk",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 2,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Gochujang",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame oil",
+        "quantity": 2,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Eggs",
+        "quantity": 2,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Sesame seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sauté kimchi",
+        "instruction": "Heat oil in a pan, add garlic and kimchi, and stir-fry for 3-4 minutes until slightly caramelized.",
+        "duration": "3-4 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 2,
+        "title": "Add rice",
+        "instruction": "Add rice, kimchi juice, gochujang, and soy sauce. Break up clumps and stir-fry for 5-6 minutes until well combined and slightly crisp in spots.",
+        "duration": "5-6 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 3,
+        "title": "Fry the eggs",
+        "instruction": "In a separate pan, fry eggs sunny-side up with crispy edges.",
+        "duration": "2-3 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Finish",
+        "instruction": "Drizzle sesame oil over the rice, top each portion with a fried egg, sesame seeds, and spring onion.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Well-fermented, slightly sour kimchi gives the best depth of flavor.",
+      "A runny yolk mixed in at the table makes the dish extra rich."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Eggs",
+        "substitute": "Crispy fried tofu cubes",
+        "effect": "Makes the dish vegan while still adding protein and texture contrast."
+      }
+    ],
+    "nutrition": {
+      "calories": 430,
+      "protein_g": 14,
+      "carbs_g": 54,
+      "fat_g": 17,
+      "fiber_g": 3,
+      "sodium_mg": 900
+    },
+    "equipment": [
+      "Wok or skillet"
+    ],
+    "storage": "Refrigerate up to 2 days.",
+    "serving_suggestions": [
+      "Great with a side of steamed dumplings."
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "budget-friendly",
+      "leftovers-friendly"
+    ],
+    "dietary": [
+      "Vegetarian option"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "rec_greencurrych",
+    "title": "Thai Green Curry Chicken",
+    "slug": "green-curry-chicken",
+    "description": "Fragrant coconut curry simmered with green curry paste, tender chicken, Thai basil, and vegetables.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "category": "Main Course",
+    "emoji": "🍛",
+    "gradient": "sage",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 478,
+    "budget": {
+      "amount": 750,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken thigh, sliced",
+        "quantity": 600,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Green curry paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Coconut milk",
+        "quantity": 400,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Thai eggplant or zucchini, chunked",
+        "quantity": 150,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Bell pepper, sliced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Fish sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Palm sugar or brown sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Thai basil leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Kaffir lime leaves",
+        "quantity": 3,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Red chili, sliced",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Fry the curry paste",
+        "instruction": "Heat oil in a pot over medium heat and fry the green curry paste for 1-2 minutes until fragrant.",
+        "duration": "1-2 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 2,
+        "title": "Add coconut milk",
+        "instruction": "Pour in half the coconut milk, stirring to combine with the paste, and simmer for 3-4 minutes until it starts to separate slightly (this deepens the flavor).",
+        "duration": "3-4 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Cook the chicken",
+        "instruction": "Add chicken slices and cook for 5-6 minutes until mostly cooked through, stirring to coat in the sauce.",
+        "duration": "5-6 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 4,
+        "title": "Add vegetables and remaining liquid",
+        "instruction": "Stir in remaining coconut milk, eggplant/zucchini, bell pepper, fish sauce, sugar, and kaffir lime leaves. Simmer for 10-12 minutes until vegetables are tender and chicken is fully cooked.",
+        "duration": "10-12 minutes",
+        "heat": "medium-low heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Remove from heat, stir in Thai basil and sliced chili just before serving.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Frying the curry paste in oil first (not directly in coconut milk) builds much deeper flavor.",
+      "Add fresh herbs at the very end so they stay vibrant."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Fish sauce",
+        "substitute": "Soy sauce + a squeeze of lime",
+        "effect": "Milder umami and no fish flavor, suitable for pescatarian-avoidant diets, though less traditional."
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 30,
+      "carbs_g": 14,
+      "fat_g": 34,
+      "fiber_g": 3,
+      "sodium_mg": 860
+    },
+    "equipment": [
+      "Pot or wok"
+    ],
+    "storage": "Refrigerate up to 3 days; coconut curries also freeze reasonably well.",
+    "serving_suggestions": [
+      "Serve over jasmine rice."
+    ],
+    "tags": [
+      "spicy",
+      "coconut",
+      "aromatic"
+    ],
+    "dietary": [
+      "Gluten-free",
+      "Dairy-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-29T00:00:00Z"
+  },
+  {
+    "id": "rec_padthai",
+    "title": "Pad Thai",
+    "slug": "pad-thai",
+    "description": "Stir-fried rice noodles with shrimp or chicken, egg, tofu, bean sprouts, and a signature sweet-tangy tamarind sauce.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "category": "Main Course",
+    "emoji": "🍤",
+    "gradient": "saffron",
+    "prep_time": "20 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "35 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 402,
+    "budget": {
+      "amount": 700,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Flat rice noodles",
+        "quantity": 250,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Shrimp or chicken, sliced",
+        "quantity": 300,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Firm tofu, cubed",
+        "quantity": 100,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Eggs",
+        "quantity": 2,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Bean sprouts",
+        "quantity": 1.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Tamarind paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Fish sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Palm sugar or brown sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Roasted peanuts, crushed",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Spring onion, chopped",
+        "quantity": 2,
+        "unit": "stalk",
+        "notes": ""
+      },
+      {
+        "item": "Lime wedges",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Vegetable oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Soak the noodles",
+        "instruction": "Soak rice noodles in warm water for 20-25 minutes until pliable but still firm. Drain.",
+        "duration": "20-25 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Mix the sauce",
+        "instruction": "Whisk together tamarind paste, fish sauce, and palm sugar until dissolved. Set aside.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Stir-fry protein and tofu",
+        "instruction": "Heat oil in a wok, add garlic, then shrimp/chicken and tofu. Cook for 3-4 minutes until nearly done. Push to one side.",
+        "duration": "3-4 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 4,
+        "title": "Scramble the egg",
+        "instruction": "Crack eggs into the empty side of the wok and scramble briefly, then mix with the protein.",
+        "duration": "1-2 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 5,
+        "title": "Add noodles and sauce",
+        "instruction": "Add drained noodles and the sauce mixture. Toss continuously for 4-5 minutes until noodles are tender and evenly coated.",
+        "duration": "4-5 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 6,
+        "title": "Finish",
+        "instruction": "Add bean sprouts and half the peanuts, toss for 1 more minute, then remove from heat. Top with remaining peanuts, spring onion, and serve with lime wedges.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Don't over-soak the noodles — they'll finish cooking in the wok and can turn mushy.",
+      "Keep the wok hot and keep tossing to avoid clumping."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Tamarind paste",
+        "substitute": "Lime juice + a touch of brown sugar",
+        "effect": "Brighter, more purely sour flavor without tamarind's fruity depth."
+      }
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein_g": 28,
+      "carbs_g": 64,
+      "fat_g": 18,
+      "fiber_g": 3,
+      "sodium_mg": 920
+    },
+    "equipment": [
+      "Wok",
+      "Tongs"
+    ],
+    "storage": "Best fresh; refrigerate up to 2 days, though noodles firm up on reheating.",
+    "serving_suggestions": [
+      "Serve with extra lime wedges and chili flakes on the side."
+    ],
+    "tags": [
+      "street food style",
+      "tangy",
+      "nutty"
+    ],
+    "dietary": [
+      "Gluten-free option",
+      "Nut-containing"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-30T00:00:00Z"
+  },
+  {
+    "id": "rec_spaghettiagl",
+    "title": "Spaghetti Aglio e Olio",
+    "slug": "spaghetti-aglio-e-olio",
+    "description": "A deceptively simple Roman classic: spaghetti tossed in garlic-infused olive oil, chili flakes, and parsley.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "category": "Main Course",
+    "emoji": "🍝",
+    "gradient": "berry",
+    "prep_time": "5 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "20 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.6,
+    "review_count": 389,
+    "budget": {
+      "amount": 400,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, thinly sliced",
+        "quantity": 6,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Extra virgin olive oil",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Red chili flakes",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Fresh parsley, chopped",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Parmesan cheese, grated",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Boil the pasta",
+        "instruction": "Cook spaghetti in generously salted boiling water until al dente. Reserve 1 cup of pasta water before draining.",
+        "duration": "9-11 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 2,
+        "title": "Infuse the oil",
+        "instruction": "While pasta cooks, gently heat olive oil in a large pan over low-medium heat. Add sliced garlic and cook slowly for 3-4 minutes until golden and fragrant — do not let it brown or burn.",
+        "duration": "3-4 minutes",
+        "heat": "low-medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Add chili",
+        "instruction": "Add chili flakes to the oil and cook for 30 seconds more.",
+        "duration": "30 seconds",
+        "heat": "low heat"
+      },
+      {
+        "step": 4,
+        "title": "Combine",
+        "instruction": "Add drained pasta directly to the pan along with a splash of reserved pasta water. Toss vigorously for 1-2 minutes until the sauce clings to the noodles and turns glossy.",
+        "duration": "1-2 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Remove from heat, stir in parsley, and season with salt to taste. Top with Parmesan if desired.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Burnt garlic turns bitter — keep the heat low and watch it closely.",
+      "The starchy pasta water is what makes the sauce silky, not just oil."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Parmesan",
+        "substitute": "Nutritional yeast",
+        "effect": "Makes the dish vegan with a similar savory, slightly cheesy note."
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 13,
+      "carbs_g": 62,
+      "fat_g": 20,
+      "fiber_g": 3,
+      "sodium_mg": 320
+    },
+    "equipment": [
+      "Large pot",
+      "Wide sauté pan"
+    ],
+    "storage": "Best fresh; refrigerate up to 2 days, adding a splash of olive oil when reheating.",
+    "serving_suggestions": [
+      "A simple side salad and crusty bread round out the meal."
+    ],
+    "tags": [
+      "quick",
+      "budget-friendly",
+      "pantry staples",
+      "vegetarian"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Vegan option"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-31T00:00:00Z"
+  },
+  {
+    "id": "rec_margheritapi",
+    "title": "Margherita Pizza",
+    "slug": "margherita-pizza",
+    "description": "Classic Neapolitan-style pizza with a crisp-chewy crust, San Marzano tomato sauce, fresh mozzarella, and basil.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "category": "Main Course",
+    "emoji": "🍕",
+    "gradient": "olive",
+    "prep_time": "1 hour 30 minutes",
+    "cook_time": "12 minutes",
+    "total_time": "1 hour 45 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 534,
+    "budget": {
+      "amount": 900,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Pizza dough (store-bought or homemade)",
+        "quantity": 500,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Crushed San Marzano tomatoes",
+        "quantity": 250,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Fresh mozzarella, torn",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Fresh basil leaves",
+        "quantity": 12,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Extra virgin olive oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 1,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Prepare the sauce",
+        "instruction": "Mix crushed tomatoes with garlic, a pinch of salt, and 1 tbsp olive oil. Do not cook — it cooks in the oven.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Preheat",
+        "instruction": "Preheat your oven as high as it goes (250-280°C) with a pizza stone or heavy baking sheet inside for at least 30 minutes.",
+        "duration": "30 minutes",
+        "heat": "very high heat"
+      },
+      {
+        "step": 3,
+        "title": "Shape the dough",
+        "instruction": "On a floured surface, stretch the dough into a 12-inch round, leaving a slightly thicker rim for the crust.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Top the pizza",
+        "instruction": "Spread the tomato sauce evenly, leaving the rim bare. Distribute torn mozzarella evenly across the top.",
+        "duration": "3 minutes",
+        "heat": ""
+      },
+      {
+        "step": 5,
+        "title": "Bake",
+        "instruction": "Carefully transfer the pizza onto the hot stone/sheet and bake for 8-12 minutes until the crust is puffed and golden with leopard-spotted char, and the cheese is bubbling.",
+        "duration": "8-12 minutes",
+        "heat": "very high heat"
+      },
+      {
+        "step": 6,
+        "title": "Finish",
+        "instruction": "Remove from the oven, drizzle with remaining olive oil, and scatter fresh basil leaves on top before slicing.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "A screaming-hot oven is essential — home ovens rarely match a pizza oven, so preheat as long as possible.",
+      "Add basil after baking so it stays bright and fragrant instead of wilting."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Fresh mozzarella",
+        "substitute": "Low-moisture shredded mozzarella",
+        "effect": "Less creamy pull and slightly more browning, but more convenient and less watery."
+      }
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein_g": 24,
+      "carbs_g": 68,
+      "fat_g": 22,
+      "fiber_g": 3,
+      "sodium_mg": 780
+    },
+    "equipment": [
+      "Pizza stone or heavy baking sheet",
+      "Rolling pin or hands"
+    ],
+    "storage": "Best fresh; leftovers keep refrigerated 2 days, reheat in a hot pan or oven.",
+    "serving_suggestions": [
+      "Pair with a simple arugula salad dressed in lemon and olive oil."
+    ],
+    "tags": [
+      "classic",
+      "vegetarian",
+      "cheesy"
+    ],
+    "dietary": [
+      "Vegetarian"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-25T00:00:00Z"
+  },
+  {
+    "id": "rec_tiramisu",
+    "title": "Tiramisu",
+    "slug": "tiramisu",
+    "description": "A no-bake Italian dessert of espresso-soaked ladyfingers layered with a silky mascarpone cream, dusted with cocoa.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "category": "Dessert",
+    "emoji": "🍰",
+    "gradient": "clay",
+    "prep_time": "30 minutes (plus 4 hours chilling)",
+    "cook_time": "0 minutes",
+    "total_time": "4 hours 30 minutes",
+    "difficulty": "Intermediate",
+    "servings": 8,
+    "rating": 4.9,
+    "review_count": 612,
+    "budget": {
+      "amount": 1100,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ladyfinger biscuits",
+        "quantity": 24,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Strong brewed espresso, cooled",
+        "quantity": 300,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Mascarpone cheese",
+        "quantity": 500,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Egg yolks",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 100,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": 200,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Cocoa powder, for dusting",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Coffee liqueur (optional)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Whisk yolks and sugar",
+        "instruction": "Whisk egg yolks and sugar together over a double boiler (or use a stand mixer) until pale, thick, and doubled in volume, about 5-8 minutes.",
+        "duration": "5-8 minutes",
+        "heat": "low heat / gentle warmth"
+      },
+      {
+        "step": 2,
+        "title": "Fold in mascarpone",
+        "instruction": "Remove from heat and gently fold in mascarpone until smooth and no lumps remain.",
+        "duration": "3 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Whip the cream",
+        "instruction": "In a separate bowl, whip heavy cream to soft peaks, then gently fold into the mascarpone mixture.",
+        "duration": "3-4 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Soak the ladyfingers",
+        "instruction": "Mix cooled espresso with coffee liqueur if using. Quickly dip each ladyfinger for 1-2 seconds per side (don't oversoak, or they'll turn mushy) and layer in a dish.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 5,
+        "title": "Layer",
+        "instruction": "Spread half the mascarpone mixture over the ladyfingers. Repeat with a second layer of soaked ladyfingers and remaining cream.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 6,
+        "title": "Chill and finish",
+        "instruction": "Cover and refrigerate for at least 4 hours (overnight is best) to set. Dust generously with cocoa powder just before serving.",
+        "duration": "4 hours",
+        "heat": "refrigerated"
+      }
+    ],
+    "tips": [
+      "Use raw or very lightly cooked egg yolks with caution — a double-boiler method reduces raw-egg risk.",
+      "Chilling overnight gives the best texture as the layers meld together."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Raw egg yolks",
+        "substitute": "Pasteurized egg yolks or a stabilized custard base",
+        "effect": "Removes raw-egg food safety concerns with only a very minor difference in richness."
+      }
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 7,
+      "carbs_g": 32,
+      "fat_g": 28,
+      "fiber_g": 1,
+      "sodium_mg": 90
+    },
+    "equipment": [
+      "Mixing bowls",
+      "Whisk or hand mixer",
+      "Serving dish"
+    ],
+    "storage": "Refrigerate covered for up to 3 days.",
+    "serving_suggestions": [
+      "Serve chilled with a small espresso on the side."
+    ],
+    "tags": [
+      "no-bake",
+      "make-ahead",
+      "coffee",
+      "contains raw egg"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Contains egg"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-21T00:00:00Z"
+  },
+  {
+    "id": "rec_chickentacos",
+    "title": "Chicken Street Tacos",
+    "slug": "chicken-tacos",
+    "description": "Charred, spice-marinated chicken tucked into warm corn tortillas with onion, cilantro, and a squeeze of lime.",
+    "cuisine": "Mexican",
+    "region": "North America",
+    "category": "Street Food",
+    "emoji": "🌮",
+    "gradient": "terracotta",
+    "prep_time": "20 minutes (plus marinating)",
+    "cook_time": "12 minutes",
+    "total_time": "32 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 601,
+    "budget": {
+      "amount": 500,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken thigh, boneless",
+        "quantity": 600,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Lime juice",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Cumin powder",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Smoked paprika",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Corn tortillas",
+        "quantity": 12,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "White onion, finely diced",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Fresh cilantro, chopped",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Lime wedges",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate the chicken",
+        "instruction": "Combine chicken with lime juice, garlic, cumin, smoked paprika, chili powder, olive oil, and salt. Marinate for at least 20 minutes, ideally 1-2 hours.",
+        "duration": "20 minutes minimum",
+        "heat": "refrigerated"
+      },
+      {
+        "step": 2,
+        "title": "Cook the chicken",
+        "instruction": "Grill or pan-sear the chicken over medium-high heat for 5-6 minutes per side until charred spots form and internal temperature reaches 74°C/165°F.",
+        "duration": "10-12 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 3,
+        "title": "Rest and chop",
+        "instruction": "Let the chicken rest for 5 minutes, then chop or shred into bite-sized pieces.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Warm the tortillas",
+        "instruction": "Warm corn tortillas directly over a flame or in a dry skillet for 20-30 seconds per side until pliable and lightly toasted.",
+        "duration": "20-30 seconds each",
+        "heat": "medium heat"
+      },
+      {
+        "step": 5,
+        "title": "Assemble",
+        "instruction": "Fill each tortilla with chopped chicken, diced onion, and cilantro. Serve with lime wedges.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Doubling up corn tortillas prevents them from tearing under juicy fillings.",
+      "A hot cast-iron pan gives good char without a grill."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Chicken thigh",
+        "substitute": "Grilled portobello mushrooms",
+        "effect": "Makes the tacos vegetarian with a similarly juicy, meaty texture."
+      }
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein_g": 28,
+      "carbs_g": 32,
+      "fat_g": 15,
+      "fiber_g": 4,
+      "sodium_mg": 480
+    },
+    "equipment": [
+      "Grill pan or skillet"
+    ],
+    "storage": "Refrigerate components separately up to 3 days; assemble fresh.",
+    "serving_suggestions": [
+      "Serve with salsa verde and a cold horchata."
+    ],
+    "tags": [
+      "quick",
+      "street food",
+      "grilled"
+    ],
+    "dietary": [
+      "Gluten-free",
+      "Dairy-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "rec_guacamole",
+    "title": "Guacamole",
+    "slug": "guacamole",
+    "description": "A fresh, chunky avocado dip brightened with lime, cilantro, onion, and jalapeño.",
+    "cuisine": "Mexican",
+    "region": "North America",
+    "category": "Snack",
+    "emoji": "🥑",
+    "gradient": "sage",
+    "prep_time": "10 minutes",
+    "cook_time": "0 minutes",
+    "total_time": "10 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 344,
+    "budget": {
+      "amount": 350,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ripe avocados",
+        "quantity": 3,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Lime juice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Red onion, finely diced",
+        "quantity": 0.25,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Tomato, diced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Jalapeño, minced",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Fresh cilantro, chopped",
+        "quantity": 0.25,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 1,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Mash the avocado",
+        "instruction": "Halve and pit avocados, scoop the flesh into a bowl, and mash to your preferred texture (chunky or smooth) with a fork.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Add lime immediately",
+        "instruction": "Stir in lime juice right away to prevent browning and add brightness.",
+        "duration": "30 seconds",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Combine",
+        "instruction": "Fold in onion, tomato, jalapeño, cilantro, and garlic until evenly distributed.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Season and rest",
+        "instruction": "Season with salt to taste. Let sit for 5-10 minutes for the flavors to meld before serving.",
+        "duration": "5-10 minutes",
+        "heat": "room temperature"
+      }
+    ],
+    "tips": [
+      "Press plastic wrap directly onto the surface if storing to slow browning.",
+      "Adding the avocado pit to the bowl is a folk remedy — lime juice and airtight storage matter more."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Jalapeño",
+        "substitute": "A pinch of cayenne pepper",
+        "effect": "Adds heat without the fresh pepper's grassy flavor and crunch."
+      }
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein_g": 2,
+      "carbs_g": 10,
+      "fat_g": 14,
+      "fiber_g": 7,
+      "sodium_mg": 150
+    },
+    "equipment": [
+      "Mixing bowl",
+      "Fork"
+    ],
+    "storage": "Best fresh; refrigerate with plastic wrap pressed on the surface for up to 1 day.",
+    "serving_suggestions": [
+      "Serve with tortilla chips or as a taco topping."
+    ],
+    "tags": [
+      "no-cook",
+      "quick",
+      "vegan",
+      "fresh"
+    ],
+    "dietary": [
+      "Vegan",
+      "Vegetarian",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-02T00:00:00Z"
+  },
+  {
+    "id": "rec_chickenshish",
+    "title": "Chicken Shish Kebab",
+    "slug": "chicken-shish-kebab",
+    "description": "Skewered chicken marinated in yogurt, garlic, and Turkish spices, grilled until smoky and juicy.",
+    "cuisine": "Turkish",
+    "region": "Middle East",
+    "category": "Main Course",
+    "emoji": "🍢",
+    "gradient": "saffron",
+    "prep_time": "20 minutes (plus marinating)",
+    "cook_time": "15 minutes",
+    "total_time": "35 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 372,
+    "budget": {
+      "amount": 750,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken breast, cubed",
+        "quantity": 700,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 3,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Lemon juice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Paprika",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Red pepper paste (or tomato paste)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Bell peppers, chunked",
+        "quantity": 2,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Red onion, chunked",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Marinate",
+        "instruction": "Combine chicken with yogurt, garlic, lemon juice, paprika, cumin, pepper paste, olive oil, and salt. Marinate for at least 1 hour, ideally overnight.",
+        "duration": "1 hour minimum",
+        "heat": "refrigerated"
+      },
+      {
+        "step": 2,
+        "title": "Skewer",
+        "instruction": "Thread marinated chicken onto skewers, alternating with bell pepper and onion chunks.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Preheat the grill",
+        "instruction": "Preheat a grill or grill pan to medium-high heat.",
+        "duration": "5 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 4,
+        "title": "Grill the skewers",
+        "instruction": "Grill for 12-15 minutes, turning every 3-4 minutes, until chicken is charred in spots and cooked through (internal temp 74°C/165°F).",
+        "duration": "12-15 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 5,
+        "title": "Rest and serve",
+        "instruction": "Rest for 3 minutes before serving.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Yogurt-based marinades tenderize chicken beautifully — don't skip the marinating time.",
+      "Soak wooden skewers in water for 30 minutes beforehand to prevent burning."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Chicken breast",
+        "substitute": "Chicken thigh",
+        "effect": "More forgiving and juicier on the grill, slightly higher in fat."
+      }
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 38,
+      "carbs_g": 10,
+      "fat_g": 16,
+      "fiber_g": 2,
+      "sodium_mg": 420
+    },
+    "equipment": [
+      "Skewers",
+      "Grill or grill pan"
+    ],
+    "storage": "Refrigerate marinated raw chicken up to 1 day; cooked leftovers up to 3 days.",
+    "serving_suggestions": [
+      "Serve with rice pilaf, grilled tomatoes, and a side of garlic yogurt sauce."
+    ],
+    "tags": [
+      "grilled",
+      "protein-rich",
+      "halal"
+    ],
+    "dietary": [
+      "Halal",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-27T00:00:00Z"
+  },
+  {
+    "id": "rec_hummus",
+    "title": "Classic Hummus",
+    "slug": "hummus",
+    "description": "A silky, creamy chickpea and tahini dip brightened with lemon, garlic, and olive oil.",
+    "cuisine": "Middle Eastern",
+    "region": "Middle East",
+    "category": "Snack",
+    "emoji": "🧆",
+    "gradient": "berry",
+    "prep_time": "10 minutes",
+    "cook_time": "0 minutes",
+    "total_time": "10 minutes",
+    "difficulty": "Easy",
+    "servings": 6,
+    "rating": 4.7,
+    "review_count": 289,
+    "budget": {
+      "amount": 300,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Cooked chickpeas",
+        "quantity": 2,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Tahini",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Lemon juice",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Olive oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Ice-cold water",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Paprika, for garnish",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Blend tahini and lemon",
+        "instruction": "Blend tahini and lemon juice together first for 1 minute until pale and creamy — this step is key to a smooth final texture.",
+        "duration": "1 minute",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Add remaining ingredients",
+        "instruction": "Add chickpeas, garlic, cumin, and salt. Blend for 2-3 minutes, scraping down the sides.",
+        "duration": "2-3 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Adjust texture",
+        "instruction": "With the blender running, drizzle in olive oil and ice-cold water gradually until the hummus reaches a light, whippy consistency.",
+        "duration": "1-2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Serve",
+        "instruction": "Spread onto a plate, drizzle with more olive oil, and dust with paprika.",
+        "duration": "1 minute",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Blending tahini and lemon before adding chickpeas is the trick to ultra-smooth hummus.",
+      "Ice-cold water helps whip air into the mixture for a lighter texture."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Tahini",
+        "substitute": "Peanut butter (unsweetened)",
+        "effect": "Different but pleasant nutty flavor; not traditional and adds allergen risk for nut allergies."
+      }
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein_g": 6,
+      "carbs_g": 16,
+      "fat_g": 12,
+      "fiber_g": 5,
+      "sodium_mg": 210
+    },
+    "equipment": [
+      "Food processor or blender"
+    ],
+    "storage": "Refrigerate in an airtight container up to 5 days.",
+    "serving_suggestions": [
+      "Serve with warm pita bread and fresh vegetable sticks."
+    ],
+    "tags": [
+      "dip",
+      "vegan",
+      "budget-friendly",
+      "no-cook"
+    ],
+    "dietary": [
+      "Vegan",
+      "Vegetarian",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-29T00:00:00Z"
+  },
+  {
+    "id": "rec_classicchees",
+    "title": "Classic Cheeseburger",
+    "slug": "classic-cheeseburger",
+    "description": "A juicy, griddle-seared beef patty topped with melted cheddar, lettuce, tomato, and a toasted bun.",
+    "cuisine": "American",
+    "region": "North America",
+    "category": "Main Course",
+    "emoji": "🍔",
+    "gradient": "olive",
+    "prep_time": "10 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 523,
+    "budget": {
+      "amount": 700,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ground beef (80/20)",
+        "quantity": 600,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Cheddar cheese slices",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Burger buns",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Lettuce leaves",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Tomato, sliced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Red onion, sliced",
+        "quantity": 0.5,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Pickles",
+        "quantity": 8,
+        "unit": "slice",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Black pepper",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "item": "Butter, for toasting buns",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Form the patties",
+        "instruction": "Divide beef into 4 equal portions and gently shape into patties slightly wider than the buns (they shrink while cooking). Press a small dimple in the center of each. Season both sides generously with salt and pepper.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Toast the buns",
+        "instruction": "Butter the cut sides of the buns and toast in a hot pan for 1 minute until golden. Set aside.",
+        "duration": "1 minute",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Sear the patties",
+        "instruction": "Heat the same pan or griddle over high heat. Cook patties for 3 minutes without pressing down, until a deep crust forms.",
+        "duration": "3 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 4,
+        "title": "Flip and add cheese",
+        "instruction": "Flip patties, immediately top with cheese, and cook for 2-3 more minutes until cheese melts and internal temperature reaches at least 71°C/160°F for safety.",
+        "duration": "2-3 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 5,
+        "title": "Assemble",
+        "instruction": "Build each burger: bottom bun, lettuce, patty with melted cheese, tomato, onion, pickles, top bun.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Don't press down on the patty while it cooks — it squeezes out the juices.",
+      "80/20 ground beef gives the best balance of flavor and juiciness."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Ground beef",
+        "substitute": "Plant-based burger patty",
+        "effect": "Makes the burger vegetarian/vegan-friendly with a similar texture, milder savory flavor."
+      }
+    ],
+    "nutrition": {
+      "calories": 620,
+      "protein_g": 36,
+      "carbs_g": 32,
+      "fat_g": 38,
+      "fiber_g": 2,
+      "sodium_mg": 780
+    },
+    "equipment": [
+      "Griddle or heavy skillet",
+      "Spatula"
+    ],
+    "storage": "Best fresh; store cooked patties separately from buns/toppings for up to 2 days.",
+    "serving_suggestions": [
+      "Serve with crispy fries and a cold soda."
+    ],
+    "tags": [
+      "classic",
+      "grilled",
+      "family favorite"
+    ],
+    "dietary": [
+      "Halal available"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-30T00:00:00Z"
+  },
+  {
+    "id": "rec_classicpanca",
+    "title": "Classic Fluffy Pancakes",
+    "slug": "classic-pancakes",
+    "description": "Light, fluffy buttermilk pancakes with crisp golden edges, perfect with maple syrup and butter.",
+    "cuisine": "American",
+    "region": "North America",
+    "category": "Breakfast",
+    "emoji": "🥞",
+    "gradient": "clay",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 467,
+    "budget": {
+      "amount": 300,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "All-purpose flour",
+        "quantity": 250,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Baking powder",
+        "quantity": 2,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Milk or buttermilk",
+        "quantity": 300,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Egg",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Butter, melted",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Vanilla extract",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Butter, for cooking",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Maple syrup, to serve",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Mix dry ingredients",
+        "instruction": "Whisk together flour, baking powder, sugar, and salt in a large bowl.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Mix wet ingredients",
+        "instruction": "In a separate bowl, whisk milk, egg, melted butter, and vanilla.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Combine",
+        "instruction": "Pour wet ingredients into dry and whisk just until combined — a few small lumps are fine. Overmixing makes pancakes tough.",
+        "duration": "1 minute",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Rest the batter",
+        "instruction": "Let the batter rest for 5 minutes; this lets the baking powder activate and gluten relax for fluffier pancakes.",
+        "duration": "5 minutes",
+        "heat": "room temperature"
+      },
+      {
+        "step": 5,
+        "title": "Cook",
+        "instruction": "Heat a lightly buttered skillet over medium heat. Pour 1/4 cup batter per pancake and cook until bubbles form on the surface and edges look set, about 2-3 minutes.",
+        "duration": "2-3 minutes per side",
+        "heat": "medium heat"
+      },
+      {
+        "step": 6,
+        "title": "Flip and finish",
+        "instruction": "Flip and cook the other side for 1-2 minutes until golden. Repeat with remaining batter, serve warm with butter and maple syrup.",
+        "duration": "1-2 minutes",
+        "heat": "medium heat"
+      }
+    ],
+    "tips": [
+      "Resting the batter briefly gives noticeably fluffier pancakes.",
+      "Wait for bubbles across the whole surface before flipping — it signals the right moment."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Buttermilk",
+        "substitute": "Milk + 1 tbsp lemon juice or vinegar (rested 5 minutes)",
+        "effect": "Very close tang and tenderizing effect to real buttermilk."
+      }
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein_g": 9,
+      "carbs_g": 48,
+      "fat_g": 12,
+      "fiber_g": 1,
+      "sodium_mg": 380
+    },
+    "equipment": [
+      "Mixing bowls",
+      "Skillet or griddle"
+    ],
+    "storage": "Refrigerate up to 2 days; reheat in a toaster or skillet. Freezes well up to 1 month.",
+    "serving_suggestions": [
+      "Top with fresh berries and a dusting of powdered sugar."
+    ],
+    "tags": [
+      "breakfast",
+      "sweet",
+      "family favorite"
+    ],
+    "dietary": [
+      "Vegetarian"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-03T00:00:00Z"
+  },
+  {
+    "id": "rec_greeksalad",
+    "title": "Greek Salad (Horiatiki)",
+    "slug": "greek-salad",
+    "description": "A rustic, no-lettuce salad of ripe tomatoes, cucumber, olives, and creamy feta dressed simply in olive oil and oregano.",
+    "cuisine": "Mediterranean",
+    "region": "Europe",
+    "category": "Salad",
+    "emoji": "🥗",
+    "gradient": "terracotta",
+    "prep_time": "15 minutes",
+    "cook_time": "0 minutes",
+    "total_time": "15 minutes",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.7,
+    "review_count": 298,
+    "budget": {
+      "amount": 450,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Tomatoes, cut into wedges",
+        "quantity": 4,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Cucumber, sliced thick",
+        "quantity": 1,
+        "unit": "large",
+        "notes": ""
+      },
+      {
+        "item": "Red onion, thinly sliced",
+        "quantity": 0.5,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Kalamata olives",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Feta cheese, block",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Extra virgin olive oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Dried oregano",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Red wine vinegar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Prep the vegetables",
+        "instruction": "Cut tomatoes into wedges, slice cucumber thickly, and thinly slice red onion. Combine in a large bowl.",
+        "duration": "8 minutes",
+        "heat": ""
+      },
+      {
+        "step": 2,
+        "title": "Add olives",
+        "instruction": "Add Kalamata olives to the bowl and toss gently.",
+        "duration": "1 minute",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Dress",
+        "instruction": "Drizzle with olive oil and red wine vinegar, season with salt, and toss gently to coat.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Top with feta",
+        "instruction": "Place the feta block whole on top of the salad (traditional style) or crumble over the top. Sprinkle with dried oregano and a final drizzle of olive oil.",
+        "duration": "2 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Traditionally the feta is served as a whole slab on top, not crumbled — try it for an authentic touch.",
+      "Salt the tomatoes lightly a few minutes ahead to draw out extra sweetness."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Feta cheese",
+        "substitute": "Firm tofu marinated in lemon and salt",
+        "effect": "Makes the salad vegan with a similar tangy, crumbly texture, though missing feta's distinct sharpness."
+      }
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein_g": 9,
+      "carbs_g": 10,
+      "fat_g": 24,
+      "fiber_g": 3,
+      "sodium_mg": 620
+    },
+    "equipment": [
+      "Large bowl"
+    ],
+    "storage": "Best fresh; if storing, keep dressing separate — refrigerate up to 1 day.",
+    "serving_suggestions": [
+      "Serve with warm pita bread as a light lunch or side."
+    ],
+    "tags": [
+      "fresh",
+      "no-cook",
+      "quick",
+      "vegetarian"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "rec_shepherdspie",
+    "title": "Shepherd's Pie",
+    "slug": "shepherds-pie",
+    "description": "A hearty baked dish of spiced minced lamb and vegetables topped with golden, buttery mashed potato.",
+    "cuisine": "British",
+    "region": "Europe",
+    "category": "Main Course",
+    "emoji": "🥧",
+    "gradient": "sage",
+    "prep_time": "25 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 10 minutes",
+    "difficulty": "Intermediate",
+    "servings": 6,
+    "rating": 4.7,
+    "review_count": 256,
+    "budget": {
+      "amount": 900,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ground lamb",
+        "quantity": 700,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Potatoes, peeled and chunked",
+        "quantity": 1,
+        "unit": "kg",
+        "notes": ""
+      },
+      {
+        "item": "Carrot, diced",
+        "quantity": 2,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Onion, diced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Peas",
+        "quantity": 1,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Tomato paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Beef or lamb stock",
+        "quantity": 300,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Worcestershire sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Milk",
+        "quantity": 100,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Cheddar cheese, grated (optional)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Cooking oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt and pepper",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Boil the potatoes",
+        "instruction": "Boil potato chunks in salted water for 15-18 minutes until fork-tender. Drain and mash with butter and milk until smooth. Season with salt and pepper.",
+        "duration": "15-18 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 2,
+        "title": "Brown the lamb",
+        "instruction": "Heat oil in a large pan, add onion and carrot, cook 5 minutes until softened, then add ground lamb and brown for 6-8 minutes, breaking it up as it cooks.",
+        "duration": "11-13 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 3,
+        "title": "Build the filling",
+        "instruction": "Stir in tomato paste, stock, and Worcestershire sauce. Simmer for 15 minutes until thickened. Stir in peas during the last 2 minutes.",
+        "duration": "15 minutes",
+        "heat": "medium-low heat"
+      },
+      {
+        "step": 4,
+        "title": "Assemble",
+        "instruction": "Preheat oven to 200°C/400°F. Spread the lamb filling in a baking dish, then top evenly with mashed potato, spreading to the edges to seal in the filling. Rough up the surface with a fork for extra crispiness. Sprinkle cheese on top if using.",
+        "duration": "5 minutes",
+        "heat": ""
+      },
+      {
+        "step": 5,
+        "title": "Bake",
+        "instruction": "Bake for 20-25 minutes until the top is golden brown and the filling is bubbling at the edges.",
+        "duration": "20-25 minutes",
+        "heat": "200°C/400°F"
+      }
+    ],
+    "tips": [
+      "Sealing the potato right to the edges of the dish prevents the filling from bubbling over.",
+      "Roughing up the mash with a fork before baking creates crispy peaks."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Ground lamb",
+        "substitute": "Ground beef",
+        "effect": "Turns the dish into a 'cottage pie' — milder flavor, still hearty and satisfying."
+      }
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein_g": 28,
+      "carbs_g": 40,
+      "fat_g": 28,
+      "fiber_g": 5,
+      "sodium_mg": 540
+    },
+    "equipment": [
+      "Large baking dish",
+      "Potato masher"
+    ],
+    "storage": "Refrigerate up to 3 days; freezes well up to 3 months.",
+    "serving_suggestions": [
+      "Serve with steamed green beans or a simple side salad."
+    ],
+    "tags": [
+      "comfort food",
+      "baked",
+      "hearty"
+    ],
+    "dietary": [
+      "Halal available"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-22T00:00:00Z"
+  },
+  {
+    "id": "rec_ratatouille",
+    "title": "Ratatouille",
+    "slug": "ratatouille",
+    "description": "A rustic Provençal stewed vegetable dish of eggplant, zucchini, peppers, and tomatoes, simmered in olive oil and herbs.",
+    "cuisine": "French",
+    "region": "Europe",
+    "category": "Side Dish",
+    "emoji": "🍆",
+    "gradient": "saffron",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "difficulty": "Easy",
+    "servings": 4,
+    "rating": 4.6,
+    "review_count": 187,
+    "budget": {
+      "amount": 550,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Eggplant, cubed",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Zucchini, cubed",
+        "quantity": 2,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Bell peppers, cubed",
+        "quantity": 2,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Tomatoes, chopped",
+        "quantity": 4,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Onion, sliced",
+        "quantity": 1,
+        "unit": "medium",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 4,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Fresh thyme",
+        "quantity": 2,
+        "unit": "sprig",
+        "notes": ""
+      },
+      {
+        "item": "Dried herbes de Provence",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Olive oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Fresh basil, torn",
+        "quantity": 0.25,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Salt and pepper",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sauté the aromatics",
+        "instruction": "Heat 2 tbsp olive oil in a large pot, add onion and garlic, cook for 4-5 minutes until softened.",
+        "duration": "4-5 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 2,
+        "title": "Cook the vegetables in stages",
+        "instruction": "Add eggplant and 2 more tbsp oil, cook 5 minutes, then add zucchini and bell peppers. Cook another 8-10 minutes, stirring occasionally, until vegetables start to soften.",
+        "duration": "13-15 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Add tomatoes and herbs",
+        "instruction": "Stir in chopped tomatoes, thyme, and herbes de Provence. Season with salt and pepper.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Simmer",
+        "instruction": "Cover and simmer on low heat for 25-30 minutes, stirring occasionally, until all vegetables are tender and the mixture has melded into a thick stew.",
+        "duration": "25-30 minutes",
+        "heat": "low heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Remove thyme sprigs, drizzle with remaining olive oil, and stir in torn fresh basil just before serving.",
+        "duration": "2 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "Cooking the vegetables in stages (rather than all at once) keeps their individual textures from turning to mush.",
+      "Ratatouille tastes even better the next day once flavors have melded."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Fresh tomatoes",
+        "substitute": "Canned whole peeled tomatoes, crushed",
+        "effect": "Works well out of season with a similar result, slightly softer texture."
+      }
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein_g": 3,
+      "carbs_g": 18,
+      "fat_g": 13,
+      "fiber_g": 6,
+      "sodium_mg": 220
+    },
+    "equipment": [
+      "Large pot or Dutch oven"
+    ],
+    "storage": "Refrigerate up to 4 days; freezes well up to 2 months.",
+    "serving_suggestions": [
+      "Serve as a side to grilled meats, or over crusty bread or rice as a light main."
+    ],
+    "tags": [
+      "vegan",
+      "rustic",
+      "make-ahead"
+    ],
+    "dietary": [
+      "Vegan",
+      "Vegetarian",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-26T00:00:00Z"
+  },
+  {
+    "id": "rec_chickentagin",
+    "title": "Moroccan Chicken Tagine",
+    "slug": "chicken-tagine",
+    "description": "Slow-simmered chicken with apricots, olives, and warm Moroccan spices in a fragrant, deeply flavored sauce.",
+    "cuisine": "African",
+    "region": "Africa",
+    "category": "Main Course",
+    "emoji": "🍯",
+    "gradient": "berry",
+    "prep_time": "20 minutes",
+    "cook_time": "50 minutes",
+    "total_time": "1 hour 10 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.8,
+    "review_count": 214,
+    "budget": {
+      "amount": 850,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Chicken thighs, bone-in",
+        "quantity": 800,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Onion, sliced",
+        "quantity": 1,
+        "unit": "large",
+        "notes": ""
+      },
+      {
+        "item": "Garlic, minced",
+        "quantity": 4,
+        "unit": "clove",
+        "notes": ""
+      },
+      {
+        "item": "Dried apricots",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Green olives",
+        "quantity": 0.3,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Ground ginger",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Ground cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Turmeric",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Chicken stock",
+        "quantity": 400,
+        "unit": "ml",
+        "notes": ""
+      },
+      {
+        "item": "Honey",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Fresh coriander, chopped",
+        "quantity": 2,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Olive oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sear the chicken",
+        "instruction": "Heat olive oil in a tagine or heavy pot over medium-high heat. Sear chicken thighs for 4-5 minutes per side until golden. Remove and set aside.",
+        "duration": "8-10 minutes",
+        "heat": "medium-high heat"
+      },
+      {
+        "step": 2,
+        "title": "Build the base",
+        "instruction": "In the same pot, add onion and garlic, cook 5 minutes until softened. Stir in ginger, cinnamon, turmeric, and cumin, and cook for 1 minute until fragrant.",
+        "duration": "6 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Simmer",
+        "instruction": "Return chicken to the pot, add stock, apricots, and honey. Bring to a simmer, cover, and cook on low heat for 35-40 minutes until chicken is very tender.",
+        "duration": "35-40 minutes",
+        "heat": "low heat"
+      },
+      {
+        "step": 4,
+        "title": "Add olives",
+        "instruction": "Stir in green olives during the last 10 minutes of cooking.",
+        "duration": "10 minutes",
+        "heat": "low heat"
+      },
+      {
+        "step": 5,
+        "title": "Finish",
+        "instruction": "Taste and adjust salt, garnish with fresh coriander before serving.",
+        "duration": "2 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "A traditional clay tagine pot helps concentrate flavor, but any heavy lidded pot works well.",
+      "The sweet-savory balance of apricot and olive is the dish's signature — don't skip either."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Dried apricots",
+        "substitute": "Dried prunes or raisins",
+        "effect": "Slightly different sweetness profile but keeps the same sweet-savory balance."
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 34,
+      "carbs_g": 24,
+      "fat_g": 26,
+      "fiber_g": 3,
+      "sodium_mg": 620
+    },
+    "equipment": [
+      "Tagine or heavy lidded pot"
+    ],
+    "storage": "Refrigerate up to 3 days; freezes well up to 2 months.",
+    "serving_suggestions": [
+      "Serve over couscous with extra coriander."
+    ],
+    "tags": [
+      "slow-cooked",
+      "sweet-savory",
+      "aromatic"
+    ],
+    "dietary": [
+      "Halal",
+      "Gluten-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-19T00:00:00Z"
+  },
+  {
+    "id": "rec_beefpho",
+    "title": "Vietnamese Beef Pho",
+    "slug": "beef-pho",
+    "description": "A soul-warming Vietnamese noodle soup with a deeply aromatic beef broth, rice noodles, and fresh herbs.",
+    "cuisine": "Southeast Asian",
+    "region": "Southeast Asia",
+    "category": "Soup",
+    "emoji": "🍜",
+    "gradient": "olive",
+    "prep_time": "20 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "1 hour 50 minutes",
+    "difficulty": "Intermediate",
+    "servings": 4,
+    "rating": 4.9,
+    "review_count": 341,
+    "budget": {
+      "amount": 900,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Beef bones and brisket",
+        "quantity": 1,
+        "unit": "kg",
+        "notes": ""
+      },
+      {
+        "item": "Onion, halved",
+        "quantity": 1,
+        "unit": "large",
+        "notes": ""
+      },
+      {
+        "item": "Ginger, halved",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Star anise",
+        "quantity": 3,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Cinnamon stick",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Cloves",
+        "quantity": 4,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Fish sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Rock sugar or sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "item": "Flat rice noodles",
+        "quantity": 300,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Beef sirloin, thinly sliced raw",
+        "quantity": 200,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Bean sprouts",
+        "quantity": 1,
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "item": "Thai basil, cilantro, lime wedges",
+        "quantity": 1,
+        "unit": "set",
+        "notes": "for garnish"
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "",
+        "notes": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Char the aromatics",
+        "instruction": "Char onion and ginger directly over a flame or under a broiler until blackened in spots, about 5 minutes. This deepens the broth's flavor.",
+        "duration": "5 minutes",
+        "heat": "high heat"
+      },
+      {
+        "step": 2,
+        "title": "Toast the spices",
+        "instruction": "Toast star anise, cinnamon, and cloves in a dry pot for 1-2 minutes until fragrant.",
+        "duration": "1-2 minutes",
+        "heat": "medium heat"
+      },
+      {
+        "step": 3,
+        "title": "Build the broth",
+        "instruction": "Add beef bones, brisket, charred onion and ginger, and 3 liters of water to the pot. Bring to a boil, skim off scum, then reduce to a gentle simmer.",
+        "duration": "10 minutes",
+        "heat": "high then low heat"
+      },
+      {
+        "step": 4,
+        "title": "Simmer low and slow",
+        "instruction": "Simmer uncovered for 1.5-2 hours, occasionally skimming fat and impurities, until the broth is rich and aromatic. Season with fish sauce, sugar, and salt.",
+        "duration": "1.5-2 hours",
+        "heat": "low heat"
+      },
+      {
+        "step": 5,
+        "title": "Prepare noodles and beef",
+        "instruction": "Soak rice noodles per package instructions until tender. Strain the broth to remove solids and keep it at a rolling simmer.",
+        "duration": "10 minutes",
+        "heat": ""
+      },
+      {
+        "step": 6,
+        "title": "Assemble",
+        "instruction": "Place noodles in bowls, top with thinly sliced raw beef sirloin, then ladle the very hot broth directly over the top — this gently poaches the raw beef. Serve with bean sprouts, herbs, and lime.",
+        "duration": "3 minutes",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "The broth must be at a rolling boil when poured over raw beef to cook it safely and properly.",
+      "Charring the onion and ginger is a small step that makes a big flavor difference."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Beef bones",
+        "substitute": "Store-bought beef bone broth",
+        "effect": "Much faster (skip hours of simmering) with a lighter, less complex flavor."
+      }
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 28,
+      "carbs_g": 52,
+      "fat_g": 10,
+      "fiber_g": 2,
+      "sodium_mg": 890
+    },
+    "equipment": [
+      "Large stockpot",
+      "Fine mesh strainer"
+    ],
+    "storage": "Refrigerate broth and noodles separately up to 3 days; broth freezes well up to 3 months.",
+    "serving_suggestions": [
+      "Serve with hoisin sauce and sriracha on the side for dipping."
+    ],
+    "tags": [
+      "comfort food",
+      "slow-cooked",
+      "noodle soup"
+    ],
+    "dietary": [
+      "Gluten-free",
+      "Dairy-free"
+    ],
+    "source": "dataset",
+    "created_at": "2026-08-28T00:00:00Z"
+  },
+  {
+    "id": "rec_bananabread",
+    "title": "Classic Banana Bread",
+    "slug": "banana-bread",
+    "description": "A moist, tender quick bread packed with ripe mashed banana and a hint of cinnamon.",
+    "cuisine": "American",
+    "region": "North America",
+    "category": "Bakery",
+    "emoji": "🍌",
+    "gradient": "clay",
+    "prep_time": "15 minutes",
+    "cook_time": "55 minutes",
+    "total_time": "1 hour 10 minutes",
+    "difficulty": "Easy",
+    "servings": 8,
+    "rating": 4.8,
+    "review_count": 398,
+    "budget": {
+      "amount": 400,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Ripe bananas, mashed",
+        "quantity": 3,
+        "unit": "large",
+        "notes": ""
+      },
+      {
+        "item": "All-purpose flour",
+        "quantity": 250,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Sugar",
+        "quantity": 150,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Butter, melted",
+        "quantity": 100,
+        "unit": "g",
+        "notes": ""
+      },
+      {
+        "item": "Eggs",
+        "quantity": 2,
+        "unit": "piece",
+        "notes": ""
+      },
+      {
+        "item": "Baking soda",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Cinnamon",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Vanilla extract",
+        "quantity": 1,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "item": "Walnuts, chopped (optional)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preheat and prep",
+        "instruction": "Preheat oven to 175°C/350°F and grease a loaf pan.",
+        "duration": "5 minutes",
+        "heat": "175°C/350°F"
+      },
+      {
+        "step": 2,
+        "title": "Mix wet ingredients",
+        "instruction": "In a large bowl, mash bananas well, then whisk in melted butter, eggs, and vanilla until combined.",
+        "duration": "3 minutes",
+        "heat": ""
+      },
+      {
+        "step": 3,
+        "title": "Combine dry ingredients",
+        "instruction": "In a separate bowl, whisk flour, sugar, baking soda, cinnamon, and salt.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 4,
+        "title": "Fold together",
+        "instruction": "Add the dry ingredients to the wet ingredients and fold gently just until no streaks of flour remain — do not overmix. Fold in walnuts if using.",
+        "duration": "2 minutes",
+        "heat": ""
+      },
+      {
+        "step": 5,
+        "title": "Bake",
+        "instruction": "Pour batter into the prepared loaf pan and bake for 50-60 minutes, until a toothpick inserted in the center comes out clean.",
+        "duration": "50-60 minutes",
+        "heat": "175°C/350°F"
+      },
+      {
+        "step": 6,
+        "title": "Cool",
+        "instruction": "Cool in the pan for 10 minutes, then transfer to a wire rack to cool completely before slicing.",
+        "duration": "10 minutes + cooling",
+        "heat": ""
+      }
+    ],
+    "tips": [
+      "The riper (more spotted/brown) the bananas, the sweeter and more flavorful the bread.",
+      "Overmixing the batter develops gluten and makes the bread dense — mix just until combined."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Butter",
+        "substitute": "Neutral oil (e.g. vegetable oil)",
+        "effect": "Slightly less rich flavor but an even moister crumb."
+      }
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein_g": 5,
+      "carbs_g": 42,
+      "fat_g": 11,
+      "fiber_g": 2,
+      "sodium_mg": 210
+    },
+    "equipment": [
+      "Loaf pan",
+      "Mixing bowls"
+    ],
+    "storage": "Store at room temperature, wrapped, for up to 4 days; freezes well up to 3 months.",
+    "serving_suggestions": [
+      "Delicious on its own or toasted with butter."
+    ],
+    "tags": [
+      "baked",
+      "sweet",
+      "make-ahead",
+      "vegetarian"
+    ],
+    "dietary": [
+      "Vegetarian",
+      "Nut-containing"
+    ],
+    "source": "dataset",
+    "created_at": "2026-09-03T00:00:00Z"
+  }
+]

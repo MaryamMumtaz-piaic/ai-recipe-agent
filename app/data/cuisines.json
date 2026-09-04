@@ -1,0 +1,18 @@
+[
+  {"slug": "pakistani", "name": "Pakistani", "region": "South Asia", "icon": "🇵🇰"},
+  {"slug": "indian", "name": "Indian", "region": "South Asia", "icon": "🇮🇳"},
+  {"slug": "chinese", "name": "Chinese", "region": "East Asia", "icon": "🇨🇳"},
+  {"slug": "japanese", "name": "Japanese", "region": "East Asia", "icon": "🇯🇵"},
+  {"slug": "korean", "name": "Korean", "region": "East Asia", "icon": "🇰🇷"},
+  {"slug": "thai", "name": "Thai", "region": "Southeast Asia", "icon": "🇹🇭"},
+  {"slug": "italian", "name": "Italian", "region": "Europe", "icon": "🇮🇹"},
+  {"slug": "mexican", "name": "Mexican", "region": "North America", "icon": "🇲🇽"},
+  {"slug": "turkish", "name": "Turkish", "region": "Middle East", "icon": "🇹🇷"},
+  {"slug": "middle-eastern", "name": "Middle Eastern", "region": "Middle East", "icon": "🧆"},
+  {"slug": "american", "name": "American", "region": "North America", "icon": "🇺🇸"},
+  {"slug": "mediterranean", "name": "Mediterranean", "region": "Europe", "icon": "🫒"},
+  {"slug": "british", "name": "British", "region": "Europe", "icon": "🇬🇧"},
+  {"slug": "french", "name": "French", "region": "Europe", "icon": "🇫🇷"},
+  {"slug": "african", "name": "African", "region": "Africa", "icon": "🌍"},
+  {"slug": "southeast-asian", "name": "Southeast Asian", "region": "Southeast Asia", "icon": "🇻🇳"}
+]

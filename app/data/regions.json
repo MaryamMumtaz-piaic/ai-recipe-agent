@@ -1,0 +1,85 @@
+[
+  {
+    "name": "South Asia",
+    "cuisines": [
+      {"name": "Pakistan", "slug": "pakistani"},
+      {"name": "India", "slug": "indian"},
+      {"name": "Bangladesh", "slug": "bangladeshi"},
+      {"name": "Sri Lanka", "slug": "sri-lankan"},
+      {"name": "Nepal", "slug": "nepali"}
+    ]
+  },
+  {
+    "name": "East Asia",
+    "cuisines": [
+      {"name": "China", "slug": "chinese"},
+      {"name": "Japan", "slug": "japanese"},
+      {"name": "Korea", "slug": "korean"},
+      {"name": "Taiwan", "slug": "taiwanese"}
+    ]
+  },
+  {
+    "name": "Middle East",
+    "cuisines": [
+      {"name": "Turkey", "slug": "turkish"},
+      {"name": "Lebanon", "slug": "lebanese"},
+      {"name": "Iran", "slug": "persian"},
+      {"name": "Saudi Arabia", "slug": "saudi"},
+      {"name": "Middle Eastern (General)", "slug": "middle-eastern"}
+    ]
+  },
+  {
+    "name": "Europe",
+    "cuisines": [
+      {"name": "Italy", "slug": "italian"},
+      {"name": "France", "slug": "french"},
+      {"name": "United Kingdom", "slug": "british"},
+      {"name": "Greece", "slug": "greek"},
+      {"name": "Mediterranean", "slug": "mediterranean"},
+      {"name": "Spain", "slug": "spanish"}
+    ]
+  },
+  {
+    "name": "North America",
+    "cuisines": [
+      {"name": "United States", "slug": "american"},
+      {"name": "Mexico", "slug": "mexican"},
+      {"name": "Canada", "slug": "canadian"}
+    ]
+  },
+  {
+    "name": "South America",
+    "cuisines": [
+      {"name": "Brazil", "slug": "brazilian"},
+      {"name": "Peru", "slug": "peruvian"},
+      {"name": "Argentina", "slug": "argentinian"}
+    ]
+  },
+  {
+    "name": "Africa",
+    "cuisines": [
+      {"name": "Morocco", "slug": "moroccan"},
+      {"name": "Ethiopia", "slug": "ethiopian"},
+      {"name": "Nigeria", "slug": "nigerian"},
+      {"name": "African (General)", "slug": "african"}
+    ]
+  },
+  {
+    "name": "Southeast Asia",
+    "cuisines": [
+      {"name": "Thailand", "slug": "thai"},
+      {"name": "Vietnam", "slug": "vietnamese"},
+      {"name": "Indonesia", "slug": "indonesian"},
+      {"name": "Malaysia", "slug": "malaysian"},
+      {"name": "Philippines", "slug": "filipino"}
+    ]
+  },
+  {
+    "name": "Central Asia",
+    "cuisines": [
+      {"name": "Uzbekistan", "slug": "uzbek"},
+      {"name": "Kazakhstan", "slug": "kazakh"},
+      {"name": "Afghanistan", "slug": "afghan"}
+    ]
+  }
+]

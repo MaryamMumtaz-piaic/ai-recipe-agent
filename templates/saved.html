@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block page_id %}saved{% endblock %}
+{% block title %}Saved Recipes — AI Recipe Agent{% endblock %}
+{% block content %}
+
+<section class="bg-bg-alt border-b border-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+    <h1 class="font-serif text-3xl md:text-4xl font-semibold">Your Saved Recipes</h1>
+    <p class="text-ink-muted mt-2">Recipes you've saved on this device.</p>
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+  <div id="saved-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+
+  <div id="saved-empty" class="hidden text-center py-20">
+    <div class="text-5xl mb-4" aria-hidden="true">📖</div>
+    <h2 class="font-serif text-xl font-semibold">No saved recipes yet.</h2>
+    <p class="text-ink-muted mt-2 max-w-sm mx-auto">Discover something delicious and save it here.</p>
+    <a href="/discover" class="mt-6 inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-full transition-colors">Explore Recipes</a>
+  </div>
+</section>
+
+{% endblock %}
+{% block scripts %}<script src="/static/js/saved.js" defer></script>{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block page_id %}about{% endblock %}
+{% block title %}About — AI Recipe Agent{% endblock %}
+{% block meta_description %}Learn how AI Recipe Agent combines a curated recipe library with AI-powered personalization to help you cook something you'll actually love.{% endblock %}
+{% block content %}
+
+<section class="bg-bg-alt border-b border-border">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 text-center">
+    <h1 class="font-serif text-3xl md:text-4xl font-semibold">About AI Recipe Agent</h1>
+    <p class="text-ink-muted mt-3 text-lg">An intelligent recipe discovery and cooking platform, built to help you cook something you'll actually love.</p>
+  </div>
+</section>
+
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 space-y-14">
+  <div>
+    <h2 class="font-serif text-2xl font-semibold mb-3">What the platform does</h2>
+    <p class="text-ink-muted leading-relaxed">AI Recipe Agent is two things in one: a curated library of real, thoroughly tested-style recipes from cuisines around the world, and an AI-powered recipe builder that creates a brand-new recipe personalized to your region, cuisine, servings, budget, dietary needs, available ingredients, cooking method, available time, and difficulty preference. You never need to "chat" with an AI — every interaction feels like using a cooking product, not a chatbot.</p>
+  </div>
+  <div>
+    <h2 class="font-serif text-2xl font-semibold mb-3">How AI recipe generation works</h2>
+    <p class="text-ink-muted leading-relaxed">When you use the AI Recipe Builder, your preferences are validated and sent to a recipe-planning agent, which prompts GPT-4.1-mini for a complete, structured recipe — never just a paragraph of free text. The response is validated against a strict recipe schema (ingredients, step-by-step instructions with timing and heat, nutrition, tips, substitutions, and more) before it's shown to you, so every generated recipe is consistently structured and genuinely cookable.</p>
+  </div>
+  <div>
+    <h2 class="font-serif text-2xl font-semibold mb-3">How recipe discovery works</h2>
+    <p class="text-ink-muted leading-relaxed">Our discovery library is a curated dataset spanning Pakistani, Indian, Chinese, Japanese, Korean, Thai, Italian, Mexican, Turkish, Middle Eastern, American, Mediterranean, British, French, African, and Southeast Asian cuisines. Search, filters, and sorting all query this library directly, so you can browse without ever needing the AI generator.</p>
+  </div>
+  <div>
+    <h2 class="font-serif text-2xl font-semibold mb-3">Why personalization matters</h2>
+    <p class="text-ink-muted leading-relaxed">Cooking preferences are deeply personal — what's "spicy," "quick," or "budget-friendly" varies a lot from kitchen to kitchen. Instead of showing everyone the same generic results, we track your session's choices (cuisines, dietary needs, budgets, time constraints) to surface more relevant recommendations, and let you scale, adapt, and substitute ingredients on any recipe until it truly fits how you cook.</p>
+  </div>
+  <div class="bg-primary/5 border border-primary/15 rounded-2xl p-6">
+    <p class="text-sm text-ink-muted leading-relaxed">Recipes and nutrition figures are provided as general guidance, not medical advice. If you have allergies or a medical dietary restriction, please verify all ingredients and substitutions independently before cooking.</p>
+  </div>
+</section>
+
+{% endblock %}
