@@ -1,1 +1,206 @@
-{}
+{
+  "ai_600c3aeb57f4": {
+    "id": "ai_600c3aeb57f4",
+    "title": "Slow Cooker Beef Seekh Kabab",
+    "slug": "slow-cooker-beef-seekh-kabab",
+    "description": "Experience the rich flavors of traditional Pakistani Seekh Kababs made tender and juicy with a slow cooker twist. These spiced beef kababs are perfect for a hearty dinner, served with fresh onions and tomatoes.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "category": "Dinner",
+    "emoji": "🍽️",
+    "gradient": "sage",
+    "prep_time": "30 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "2 hours",
+    "difficulty": "Advanced",
+    "servings": 5,
+    "rating": 4.7,
+    "review_count": 0,
+    "budget": {
+      "amount": 0.0,
+      "currency": "PKR"
+    },
+    "ingredients": [
+      {
+        "item": "Beef mince",
+        "quantity": 700.0,
+        "unit": "grams",
+        "notes": "lean"
+      },
+      {
+        "item": "Onions",
+        "quantity": 2.0,
+        "unit": "medium",
+        "notes": "finely chopped"
+      },
+      {
+        "item": "Garlic cloves",
+        "quantity": 4.0,
+        "unit": "pieces",
+        "notes": "minced"
+      },
+      {
+        "item": "Green chili peppers",
+        "quantity": 2.0,
+        "unit": "pieces",
+        "notes": "finely chopped"
+      },
+      {
+        "item": "Garam masala powder",
+        "quantity": 2.0,
+        "unit": "teaspoons",
+        "notes": "freshly ground"
+      },
+      {
+        "item": "Coriander powder",
+        "quantity": 1.0,
+        "unit": "tablespoon",
+        "notes": ""
+      },
+      {
+        "item": "Cumin powder",
+        "quantity": 1.0,
+        "unit": "teaspoon",
+        "notes": ""
+      },
+      {
+        "item": "Red chili powder",
+        "quantity": 1.0,
+        "unit": "teaspoon",
+        "notes": "adjust to taste"
+      },
+      {
+        "item": "Salt",
+        "quantity": null,
+        "unit": "to taste",
+        "notes": ""
+      },
+      {
+        "item": "Fresh coriander leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "notes": "finely chopped"
+      },
+      {
+        "item": "Egg",
+        "quantity": 1.0,
+        "unit": "piece",
+        "notes": "beaten"
+      },
+      {
+        "item": "Tomatoes",
+        "quantity": 3.0,
+        "unit": "medium",
+        "notes": "sliced for serving"
+      },
+      {
+        "item": "Lemon wedges",
+        "quantity": 5.0,
+        "unit": "pieces",
+        "notes": "for serving"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Prepare the kabab mixture",
+        "instruction": "In a large mixing bowl, combine beef mince with finely chopped onions, minced garlic, green chilies, garam masala, coriander powder, cumin powder, red chili powder, salt, and fresh coriander leaves. Mix well using your hands to ensure all spices are evenly distributed.",
+        "duration": "10 minutes",
+        "heat": "none"
+      },
+      {
+        "step": 2,
+        "title": "Add egg binder",
+        "instruction": "Add the beaten egg to the mixture and mix thoroughly to bind the ingredients, making it easier to shape the kababs.",
+        "duration": "5 minutes",
+        "heat": "none"
+      },
+      {
+        "step": 3,
+        "title": "Shape the kababs",
+        "instruction": "Divide the mixture into 10 equal portions and shape each into long, cylindrical kababs around metal or soaked wooden skewers. Ensure they are compact to avoid falling apart during cooking.",
+        "duration": "10 minutes",
+        "heat": "none"
+      },
+      {
+        "step": 4,
+        "title": "Prepare slow cooker",
+        "instruction": "Lightly grease the slow cooker basket or insert with oil to prevent sticking. Arrange the skewered kababs in a single layer, leaving space between each kabab for even cooking.",
+        "duration": "5 minutes",
+        "heat": "none"
+      },
+      {
+        "step": 5,
+        "title": "Slow cook the kababs",
+        "instruction": "Cover and cook on low heat in the slow cooker for 1 hour, turning the kababs carefully halfway through to ensure even cooking and browning.",
+        "duration": "1 hour",
+        "heat": "low heat"
+      },
+      {
+        "step": 6,
+        "title": "Finish kababs under broiler (optional)",
+        "instruction": "For a traditional charred finish, preheat your oven broiler. Place the cooked kababs on a broiler-safe tray and broil for 3-4 minutes per side until lightly charred and browned. Watch closely to avoid burning.",
+        "duration": "8 minutes",
+        "heat": "high broil"
+      },
+      {
+        "step": 7,
+        "title": "Serve",
+        "instruction": "Remove kababs from skewers and serve hot with sliced tomatoes, lemon wedges, and optionally naan or rice.",
+        "duration": "5 minutes",
+        "heat": "none"
+      }
+    ],
+    "tips": [
+      "Soak wooden skewers in water for 30 minutes prior to use to prevent burning.",
+      "Use lean beef mince to avoid excess fat dripping in slow cooker.",
+      "To enhance flavor, chill the kabab mixture for 30 minutes before shaping.",
+      "Watch kababs carefully if broiling, as they can burn quickly.",
+      "This recipe is halal compliant; verify all meat sources accordingly."
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Beef mince",
+        "substitute": "Chicken mince",
+        "effect": "Lighter flavor and texture; reduce cooking time slightly."
+      },
+      {
+        "ingredient": "Egg",
+        "substitute": "1 tablespoon chickpea flour mixed with 2 tablespoons water",
+        "effect": "Provides binding for a vegetarian-friendly option; texture slightly different."
+      }
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein_g": 28.0,
+      "carbs_g": 6.0,
+      "fat_g": 20.0,
+      "fiber_g": 1.5,
+      "sodium_mg": 450.0
+    },
+    "equipment": [
+      "Slow cooker",
+      "Mixing bowl",
+      "Metal or wooden skewers",
+      "Oven broiler (optional)"
+    ],
+    "storage": "Store cooked kababs in an airtight container in the refrigerator for up to 3 days. Reheat gently in a microwave or oven before serving.",
+    "serving_suggestions": [
+      "Serve with naan bread or steamed basmati rice",
+      "Accompany with sliced onions and tomatoes",
+      "Add a side of yogurt raita or mint chutney"
+    ],
+    "tags": [
+      "Meat",
+      "Grilled",
+      "Spicy",
+      "Halal",
+      "Slow Cooker"
+    ],
+    "dietary": [
+      "Halal"
+    ],
+    "source": "ai_generated",
+    "created_at": "2026-09-04T14:29:14Z"
+  }
+}
